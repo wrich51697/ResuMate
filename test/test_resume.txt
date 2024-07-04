@@ -1,0 +1,53 @@
+John Doe
+1234 Elm Street, Apt 567
+Anytown, USA 12345
+(555) 555-5555
+john.doe@example.com
+
+Objective
+---------
+To obtain a challenging position in software development where I can apply my skills and contribute to the success of the company.
+
+Education
+---------
+Bachelor of Science in Computer Science, Anytown University
+Graduated: May 2020
+GPA: 3.8/4.0
+
+Experience
+----------
+Software Developer Intern, Tech Solutions Inc.
+June 2020 - August 2020
+- Developed web applications using HTML, CSS, JavaScript, and Python.
+- Collaborated with the team to design and implement new features.
+- Conducted code reviews and provided feedback to team members.
+
+Projects
+--------
+Project Name: Inventory Management System
+- Developed an inventory management system using Django and PostgreSQL.
+- Implemented user authentication and authorization.
+- Designed the database schema and wrote SQL queries for data retrieval and manipulation.
+
+Project Name: Chat Application
+- Built a real-time chat application using React and Node.js.
+- Integrated WebSocket for real-time communication.
+- Deploy the application on Heroku and set up CI/CD pipelines.
+
+Skills
+------
+- Programming Languages: Python, JavaScript, Java, C++
+- Web Technologies: HTML, CSS, Django, React
+- Databases: PostgreSQL, MySQL
+- Tools: Git, Docker, Jenkins
+
+Certifications
+--------------
+Certified Java Developer, Oracle
+Issued: July 2021
+
+Interests
+---------
+- Open-source contributions
+- Machine learning
+- Hiking and outdoor activities

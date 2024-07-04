@@ -1,0 +1,125 @@
+/* static/style.css */
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Banner styles */
+.banner {
+    width: 100%;
+    height: 600px; /* Set the height to 600px */
+    overflow: hidden; /* Hide any overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+/* Navbar and button styles */
+.navbar-custom {
+    background-color: transparent; /* Make the navbar background transparent */
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.nav-link {
+    margin-left: 10px;
+}
+.button-row {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: transparent; /* Make the button row background transparent */
+}
+.button-row .btn {
+    margin: 0 10px;
+}
+
+/* Form and strength meter styles */
+.form-control {
+    margin-bottom: 10px;
+}
+.strength-meter {
+    display: flex;
+    height: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+.strength-meter div {
+    height: 100%;
+}
+.strength-meter .weak {
+    background-color: red;
+}
+.strength-meter .medium {
+    background-color: orange;
+}
+.strength-meter .strong {
+    background-color: green;
+}
+.strength-meter .very-strong {
+    background-color: blue;
+}
+
+/* Alert and main content styles */
+.alert {
+    background-color: transparent; /* Make alert boxes transparent */
+    border: none;
+}
+.main-content {
+    background-color: transparent; /* Make main content background transparent */
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #FAF3E0;
+}
+.dark-mode .navbar-light {
+    background-color: #444;
+}
+.dark-mode .navbar-light .navbar-brand, .dark-mode .navbar-light .nav-link {
+    color: #FAF3E0;
+}
+.dark-mode .button-row {
+    background-color: transparent; /* Keep button row background transparent in dark mode */
+}
+.dark-mode .alert {
+    background-color: transparent; /* Keep alert boxes transparent in dark mode */
+}
+.dark-mode .main-content {
+    background-color: transparent; /* Keep main content background transparent in dark mode */
+}
+#dark-mode-toggle {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+
+/* New styles for the home page */
+.text-center {
+    text-align: center;
+}
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.content-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.content-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}

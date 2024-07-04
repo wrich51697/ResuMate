@@ -1,7 +1,7 @@
 /**
- * Unit tests for the HtmlTableGenerator class.
+ * Unit test for the HtmlTableGenerator class.
  *
- * These tests verify that the HtmlTableGenerator correctly generates tables
+ * These test verify that the HtmlTableGenerator correctly generates tables
  * with the appropriate headers and data, handles empty columns and rows gracefully,
  * and logs errors when the eachWithIdx method fails.
  */
@@ -11,7 +11,7 @@ import sinon from 'sinon';
 import HtmlTableGenerator from "C:/Users/Brian Richmond/PycharmProjects/ResuMate/app/HtmlTableGenerator.js";
 
 /**
- * Unit tests for the HtmlTableGenerator class.
+ * Unit test for the HtmlTableGenerator class.
  */
 describe('HtmlTableGenerator', function () {
     let tableGenerator;

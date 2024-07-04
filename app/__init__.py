@@ -1,80 +1,44 @@
-"""
-This module initializes the Flask application along with its extensions and configurations.
-It sets up the database, migration tool, bcrypt for hashing, and login management.
-Routes and models are also imported and initialized here.
-"""
+# __init__.py or your app's initialization module
 
-from flask import Flask
+from flask import Flask, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
-from config import Config
-from sqlalchemy.exc import SQLAlchemyError
+from flask_migrate import Migrate
+from config import config
 
-# Initialize extensions
 db = SQLAlchemy()
-migrate = Migrate()
 bcrypt = Bcrypt()
 login_manager = LoginManager()
-login_manager.login_view = 'login'
+login_manager.login_view = 'auth.login'
 login_manager.login_message_category = 'info'
+migrate = Migrate()  # Initialize Flask-Migrate
 
 
-def create_app(config_class=Config):
-    """
-    Create and configure the Flask application.
+def create_app(config_name='development'):
+    app = Flask(__name__, template_folder='templates')
+    app.config.from_object(config[config_name])
+    config[config_name].init_app(app)
 
-    Args:
-        config_class (Config): The configuration class to use.
+    db.init_app(app)
+    bcrypt.init_app(app)
+    login_manager.init_app(app)
+    migrate.init_app(app, db)  # Initialize Flask-Migrate with app and db
 
-    Returns:
-        Flask: The configured Flask application instance.
-    """
-    app = Flask(__name__, template_folder='../templates', static_folder='../static')
+    from app.models import User
 
-    try:
-        app.config.from_object(config_class)
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(int(user_id))
 
-        # Initialize extensions with the app
-        db.init_app(app)
-        migrate.init_app(app, db)
-        bcrypt.init_app(app)
-        login_manager.init_app(app)
+    from app.Routes.user_routes import user_bp  # Ensure user_bp is defined in user_routes.py
+    from app.Routes.resume_routes import resume_bp  # Ensure resume_bp is defined in resume_routes.py
 
-    except SQLAlchemyError as e:
-        # Handle SQLAlchemy initialization errors
-        app.logger.error(f"Error initializing SQLAlchemy: {e}")
-        raise
+    app.register_blueprint(user_bp, url_prefix='/auth')
+    app.register_blueprint(resume_bp, url_prefix='/resume')
 
-    try:
-        # Import and initialize routes
-        from app import routes
-        routes.init_routes(app)
-
-        # Import User model for login management
-        from app.models import User
-
-        @login_manager.user_loader
-        def load_user(user_id):
-            """
-            Load a user by ID.
-
-            Args:
-                user_id (int): The ID of the user to load.
-
-            Returns:
-                User: The user instance if found, None otherwise.
-            """
-            return User.query.get(int(user_id))
-
-    except ImportError as e:
-        # Handle import errors
-        app.logger.error(f"Error importing routes or models: {e}")
-        raise
+    @app.route('/')
+    def home():
+        return redirect(url_for('auth.index'))
 
     return app
-
-
-def app():
-    return None
