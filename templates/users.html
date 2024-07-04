@@ -1,0 +1,31 @@
+<!-- app/templates/users.html -->
+{% extends "base.html" %}
+
+{% block title %}Users{% endblock %}
+
+{% block content %}
+    <!-- This template displays a list of all users in the ResuMate application -->
+    <h1 class="my-4">Users</h1>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for user in users %}
+            <tr>
+                <td>{{ user.username }}</td>
+                <td>{{ user.email }}</td>
+                <td>
+                    <a href="{{ url_for('user_profile', user_id=user.id) }}" class="btn btn-info btn-sm">View Profile</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('register') }}" class="btn btn-primary">Add New User</a>
+    <a href="{{ url_for('login') }}" class="btn btn-secondary">Login</a>
+{% endblock %}

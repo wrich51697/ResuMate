@@ -135,6 +135,34 @@ To manage dependencies effectively, follow these guidelines:
     </step>
 </procedure>
 
+## New Dependencies for User Authentication
+
+To set up user authentication, we added the following dependencies:
+
+- `Flask-Login`: For user session management.
+- `Flask-Bcrypt`: For hashing passwords.
+
+### Installing New Dependencies
+
+<procedure title="Install New Dependencies" id="install-new-dependencies">
+    <step>
+        <p>To install the new dependencies, use the following command:</p>
+        <ul>
+            <li>
+                <code>pip install flask-login flask-bcrypt</code>
+            </li>
+        </ul>
+    </step>
+    <step>
+        <p>After installing the new packages, update the <code>requirements.txt</code> file:</p>
+        <ul>
+            <li>
+                <code>pip freeze &gt; requirements.txt</code>
+            </li>
+        </ul>
+    </step>
+</procedure>
+
 ## Common Issues and Troubleshooting
 
 ### Issue: Package Installation Error
@@ -165,4 +193,6 @@ To manage dependencies effectively, follow these guidelines:
 
 ## Conclusion
 
-Managing project dependencies is crucial for maintaining a stable and functional development environment. By following these guidelines, you can ensure that all necessary packages are installed and up-to-date, making it easier to collaborate and develop the ResuMate project.
+Managing project dependencies is crucial for maintaining a stable and functional development environment.
+By following these guidelines, you can ensure that all necessary packages are installed and up to date,
+making it easier to collaborate and develop the ResuMate project.

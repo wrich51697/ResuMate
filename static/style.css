@@ -1,0 +1,43 @@
+/* static/style.css */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+.strength-meter {
+    display: flex;
+    height: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.strength-meter div {
+    height: 100%;
+}
+
+.strength-meter .weak {
+    background-color: red;
+}
+
+.strength-meter .medium {
+    background-color: orange;
+}
+
+.strength-meter .strong {
+    background-color: green;
+}
+
+.strength-meter .very-strong {
+    background-color: blue;
+}

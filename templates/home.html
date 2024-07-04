@@ -1,0 +1,16 @@
+<!-- app/templates/home.html -->
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <!-- Main content of the home page -->
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to ResuMate!</h1>
+        <p class="lead">Your one-stop solution for managing resumes and job applications.</p>
+        <hr class="my-4">
+        <p>Get started by registering an account or logging in.</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('register') }}" role="button">Register</a>
+        <a class="btn btn-secondary btn-lg" href="{{ url_for('login') }}" role="button">Login</a>
+    </div>
+{% endblock %}
