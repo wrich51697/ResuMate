@@ -1,10 +1,10 @@
 """
 content_analysis.py
 ------------------------------------------------
-Author: Brian Richmond
+Author: William Richmond
 Created on: 07 July 2024
 File name: content_analysis.py
-Revised:
+Revised: [Add revised date]
 
 Description:
 This module implements content analysis algorithms to score and rank resumes based on relevance.
@@ -48,15 +48,15 @@ class ContentAnalyzer:
         """
         try:
             # Example analysis: match skills
-            resume_skills = {chunk for chunk in resume_data["noun_chunks"] if "skills" in chunk.lower()}
-            job_skills = {word.lower() for word in job_description.split() if "skills" in word.lower()}
+            resume_skills = {chunk.lower() for chunk in resume_data["noun_chunks"]}
+            job_skills = {word.lower() for word in job_description.split()}
 
             matching_skills = resume_skills.intersection(job_skills)
 
             score = len(matching_skills) / len(job_skills) if job_skills else 0
 
             return {
-                "matching_skills": matching_skills,
+                "matching_skills": list(matching_skills),
                 "score": score
             }
         except Exception as e:

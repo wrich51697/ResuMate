@@ -7,15 +7,15 @@ File name: test_app.py
 Revised:
 
 Description:
-This module contains integration test for the ResuMate application.
-It includes test for user registration, login, logout, file upload, and the user's route.
+This module contains integration tests for the ResuMate application.
+It includes tests for user registration, login, logout, file upload, and the user's route.
 
 Classes:
     BasicTests: Test case for the basic functionalities of the ResuMate application.
     UserModelCase: Test case for the User model functionalities.
 
 Usage:
-    Run this module with a test runner to execute the test.
+    Run this module with a tests runner to execute the tests.
 
 Example:
     python -m unittest test_app
@@ -39,7 +39,7 @@ class BasicTests(unittest.TestCase):
 
         with self.app.app_context():
             db.create_all()
-            user = User(first_name='Test', last_name='User', username='testuser', email='test@example.com',
+            user = User(first_name='Test', last_name='User', username='testuser', email='tests@example.com',
                         password='password')
             user.set_password('password')
             db.session.add(user)
@@ -53,7 +53,7 @@ class BasicTests(unittest.TestCase):
 
     def login(self):
         return self.client.post('/login', data=dict(
-            email='test@example.com',
+            email='tests@example.com',
             password='password'
         ), follow_redirects=True)
 
@@ -75,7 +75,7 @@ class BasicTests(unittest.TestCase):
 
     def test_upload_file(self):
         self.login()
-        with open('test/test_resume.txt', 'rb') as resume_file:
+        with open('tests/test_resume.txt', 'rb') as resume_file:
             response = self.client.post('/upload', data=dict(
                 resume=resume_file
             ), follow_redirects=True)

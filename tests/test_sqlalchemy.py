@@ -2,7 +2,7 @@
 Test script for verifying the creation of a table in the SQL Server database using SQLAlchemy.
 
 This script connects to the 'ResuMate' database on 'BRIANS-DESKTOP'
-using the ODBC Driver 17 for SQL Server, creates a metadata object, defines a test table,
+using the ODBC Driver 17 for SQL Server, creates a metadata object, defines a tests table,
 and creates the table in the database.
 If the table creation is successful, a success message is printed.
 This script is integrated with the unittest framework for comprehensive testing.
@@ -21,11 +21,11 @@ class SQLAlchemyTestCase(unittest.TestCase):
 
     def setUp(self):
         """
-        Set up test variables and initialize the database connection.
+        Set up tests variables and initialize the database connection.
 
-        This method is called before each test.
+        This method is called before each tests.
         It creates an engine instance, a metadata instance,
-        and defines a test table.
+        and defines a tests table.
         The table is then created in the database.
         """
         # Database connection URI for SQLAlchemy
@@ -40,8 +40,8 @@ class SQLAlchemyTestCase(unittest.TestCase):
             self.engine = create_engine(connection_url, echo=True)
             self.metadata = MetaData()
 
-            # Define a test table
-            self.test_table = Table('test', self.metadata,
+            # Define a tests table
+            self.test_table = Table('tests', self.metadata,
                                     Column('id', Integer, primary_key=True),
                                     Column('name', String))
 
@@ -52,9 +52,9 @@ class SQLAlchemyTestCase(unittest.TestCase):
 
     def tearDown(self):
         """
-        Tear down the test context.
+        Tear down the tests context.
 
-        This method is called after each test.
+        This method is called after each tests.
         It drops all tables defined in the metadata
         from the database.
         """
@@ -65,16 +65,16 @@ class SQLAlchemyTestCase(unittest.TestCase):
 
     def test_table_creation(self):
         """
-        Test the creation of the test table.
+        Test the creation of the tests table.
 
-        This test verifies that the test table is created successfully in the database.
+        This tests verifies that the tests table is created successfully in the database.
         It checks the existence of the table in the metadata and ensures the database
         connection is operational.
         """
         with self.engine.connect() as connection:
             result = connection.execute(text('SELECT 1'))
             self.assertIsNotNone(result)
-            self.assertIn('test', self.metadata.tables)
+            self.assertIn('tests', self.metadata.tables)
             print("Table created successfully!")
 
 

@@ -1,14 +1,14 @@
 """
 models.py
 ------------------------------------------------
-Author: Brian Richmond
+Author: William Richmond
 Created on: 07 July 2024
 File name: models.py
 Revised: [Add revised date]
 
 Description:
 This module defines the database models for the ResuMate application.
-It includes models for users, resumes, feedback, template, skills, job descriptions, sessions, logs, and admins.
+It includes models for users, resumes, feedback, templates, skills, job descriptions, sessions, logs, and admins.
 Each model includes fields, relationships, and methods for interacting with the database.
 
 Classes:

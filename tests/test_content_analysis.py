@@ -5,30 +5,30 @@ Author: Brian Richmond
 Created on: 09 July 2024
 
 Description:
-This module contains unit test for the ContentAnalyzer class implemented in the content_analysis.py module.
-The test verify the functionality of the analysis method, ensuring it correctly matches, and
+This module contains unit tests for the ContentAnalyzer class implemented in the content_analysis.py module.
+The tests verify the functionality of the analysis method, ensuring it correctly matches, and
  scores resume keywords against job descriptions.
 
 Usage:
-    To run the test, use the following command:
-    $ python -m unittest discover test
+    To run the tests, use the following command:
+    $ python -m unittest discover tests
 
 Example:
-    python -m unittest test/test_content_analysis.py
+    python -m unittest tests/test_content_analysis.py
 """
 
 import unittest
-from app.content_analysis import ContentAnalyzer
+from app.services.content_analysis import ContentAnalyzer
 
 
 class TestContentAnalyzer(unittest.TestCase):
     """
-    Unit test for the ContentAnalyzer class.
+    Unit tests for the ContentAnalyzer class.
     """
 
     def setUp(self):
         """
-        Set up test fixtures.
+        Set up tests fixtures.
         """
         self.analyzer = ContentAnalyzer()
         self.resume_data = {

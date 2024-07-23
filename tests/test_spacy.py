@@ -1,5 +1,5 @@
 """
-This module contains the unit test for the resume parsing functionality.
+This module contains the unit tests for the resume parsing functionality.
 It verifies that the ResumeParser class correctly parses resumes.
 """
 
@@ -9,13 +9,13 @@ from app.resume_parser import ResumeParser
 
 class SpacyTestCase(unittest.TestCase):
     """
-    A test case for the ResumeParser class.
+    A tests case for the ResumeParser class.
     """
 
     def test_resume_parsing(self):
         """
         Test the resume parsing functionality.
-        This test verifies that the ResumeParser class correctly parses a resume
+        This tests verifies that the ResumeParser class correctly parses a resume
         and extracts the expected entities and noun chunks.
         """
         parser = ResumeParser()

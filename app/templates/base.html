@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--
+    Author: William Richmond
+    Created on: 08 July 2024
+    File name: base.html
+    Revised: [Add revised date]
+
+    Description:
+    This template serves as the base HTML structure for all pages in the ResuMate application.
+    It includes a navigation bar with buttons for Home, Login, About, and Help. It also has a dark mode toggle feature.
+
+    Usage:
+    Extend this template in other HTML templates to maintain a consistent layout.
+    -->
+
+    <!-- Metadata for character encoding and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% endblock %} - ResuMate</title>
-    <!-- Bootstrap CSS -->
+    <title>{% block title %} {% endblock %} - ResuMate</title>
+
+    <!-- Bootstrap CSS for styling -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+
+    <!-- Custom CSS for additional styles -->
     <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
-    <!-- Google Fonts -->
+
+    <!-- Google Fonts for custom font usage -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- Banner section with logo -->
 <div class="banner">
     <img src="{{ url_for('static', filename='images/Resumate2.png') }}" alt="ResuMate Logo" class="banner-image">
 </div>
+
+<!-- Navigation bar with custom styling -->
 <nav class="navbar navbar-light navbar-custom">
     <div class="container-fluid">
         <button type="button" class="btn btn-dark ml-auto" id="dark-mode-toggle">Toggle Dark Mode</button>
     </div>
 </nav>
+
+<!-- Button row for navigation links -->
 <div class="container button-row">
     <a href="{{ url_for('auth.index') }}" class="btn btn-primary">Home</a>
     <a href="{{ url_for('auth.users') }}" class="btn btn-secondary">Users</a>
@@ -31,6 +54,8 @@
         <a href="{{ url_for('auth.register') }}" class="btn btn-secondary">Register</a>
     {% endif %}
 </div>
+
+<!-- Main content area for rendering templates -->
 <div class="container main-content">
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
@@ -46,17 +71,20 @@
     {% endwith %}
     {% block content %}{% endblock %}
 </div>
-<!-- Bootstrap JS and dependencies -->
+
+<!-- Bootstrap JS and dependencies for functionality -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- Custom JS -->
+
+<!-- Custom JS for additional functionality -->
 <script>
     // Check if dark mode is enabled
     if (localStorage.getItem('dark-mode') === 'enabled') {
         document.body.classList.add('dark-mode');
     }
 
+    // Event listener for dark mode toggle
     document.getElementById('dark-mode-toggle').addEventListener('click', function() {
         document.body.classList.toggle('dark-mode');
         if (document.body.classList.contains('dark-mode')) {

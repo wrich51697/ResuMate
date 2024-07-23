@@ -7,21 +7,21 @@ File name: base_test.py
 Revised:
 
 Description:
-This module provides a base test case for the ResuMate application.
-It includes setup and teardown methods to initialize and clean up the test environment.
+This module provides a base tests case for the ResuMate application.
+It includes setup and teardown methods to initialize and clean up the tests environment.
 
 Classes:
-    TestBaseTestCase: A base test case class for setting up and tearing down the test environment.
+    TestBaseTestCase: A base tests case class for setting up and tearing down the tests environment.
 
 Usage:
-    Import this module and inherit from TestBaseTestCase to create test cases with a predefined setup and teardown.
+    Import this module and inherit from TestBaseTestCase to create tests cases with a predefined setup and teardown.
 
 Example:
     from base_test import TestBaseTestCase
 
     class MyTests(TestBaseTestCase):
         def test_something(self):
-            # Your test code here
+            # Your tests code here
 """
 
 import unittest
@@ -32,7 +32,7 @@ from app.models import User
 class TestBaseTestCase(unittest.TestCase):
     def setUp(self):
         """
-        Set up the test environment by creating the database and adding a test user.
+        Set up the tests environment by creating the database and adding a tests user.
         """
         self.app = create_app('config.TestingConfig')
         self.app.config['TESTING'] = True
@@ -40,7 +40,7 @@ class TestBaseTestCase(unittest.TestCase):
         self.client = self.app.test_client()
         with self.app.app_context():
             db.create_all()
-            user = User(first_name='Test', last_name='User', username='testuser', email='test@example.com',
+            user = User(first_name='Test', last_name='User', username='testuser', email='tests@example.com',
                         password='password')
             user.set_password('password')
             db.session.add(user)
@@ -48,7 +48,7 @@ class TestBaseTestCase(unittest.TestCase):
 
     def tearDown(self):
         """
-        Tear down the test environment by removing the database session and dropping all tables.
+        Tear down the tests environment by removing the database session and dropping all tables.
         """
         with self.app.app_context():
             db.session.remove()
@@ -56,12 +56,12 @@ class TestBaseTestCase(unittest.TestCase):
 
     def test_setup(self):
         """
-        Test if the setup creates a test user.
+        Test if the setup creates a tests user.
         """
         with self.app.app_context():
             user = User.query.filter_by(username='testuser').first()
             self.assertIsNotNone(user)
-            self.assertEqual(user.email, 'test@example.com')
+            self.assertEqual(user.email, 'tests@example.com')
 
 
 if __name__ == '__main__':

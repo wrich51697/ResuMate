@@ -1,12 +1,14 @@
 """
+user_routes.py
+------------------------------------------------
 Author: William Richmond
 Created on: 07 July 2024
 File name: user_routes.py
-Revised: 08 July 2024
+Revised: [Add revised date]
 
 Description:
 This module defines the user-related routes for the ResuMate application.
-It includes routes for user registration, login, logout, viewing users, and viewing user profiles.
+It includes routes for user registration, login, logout, viewing users, viewing user profiles, and file uploads.
 
 Usage:
     Import this module and initialize the routes with the given Flask app instance.
@@ -17,13 +19,15 @@ Example:
     app = Flask(__name__)
     app.register_blueprint(user_bp)
 """
+
 from flask import Blueprint, render_template, url_for, flash, redirect, request
 from flask_login import login_user, current_user, logout_user, login_required
+
 from app.auth_manager import bcrypt, login_manager
 from app.db_manager import db
 from app.forms import RegistrationForm, LoginForm
 from app.models import User
-from app.utils.file_handler import FileHandler
+from app.utils.upload_utils import handle_file_upload
 
 user_bp = Blueprint('auth', __name__)
 
@@ -86,10 +90,20 @@ def user_profile(user_id):
     return render_template('user_profile.html', user=user)
 
 
-@user_bp.route('/upload', methods=['GET', 'POST'])
+@user_bp.route('/upload', methods=['POST'])
 @login_required
-def upload():
-    return FileHandler.upload(request)
+def upload_file():
+    """
+    Handles file uploads from users.
+
+    Request Form:
+        file: The file to be uploaded.
+        user_id: The ID of the user uploading the file.
+
+    Returns:
+        JSON response with the upload status and file ID.
+    """
+    return handle_file_upload()
 
 
 @login_manager.user_loader

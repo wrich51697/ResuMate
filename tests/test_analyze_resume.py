@@ -7,13 +7,13 @@ File name: test_analyze_resume.py
 Revised:
 
 Description:
-This module contains test for the resume analysis feature of the ResuMate application.
+This module contains tests for the resume analysis feature of the ResuMate application.
 
 Classes:
     AnalyzeResumeTests: Test case for the resume analysis feature.
 
 Usage:
-    Run this module with a test runner to execute the test.
+    Run this module with a tests runner to execute the tests.
 
 Example:
     python -m unittest test_analyze_resume
@@ -67,7 +67,7 @@ class AnalyzeResumeTests(unittest.TestCase):
             Base.metadata.create_all(engine)
             Session = sessionmaker(bind=engine)
             self.session = Session()
-            user = MockUser(first_name="Test", last_name="User", username="testuser", email="test@example.com",
+            user = MockUser(first_name="Test", last_name="User", username="testuser", email="tests@example.com",
                             password_hash="hashed_password")
             self.session.add(user)
             self.session.commit()
@@ -76,7 +76,7 @@ class AnalyzeResumeTests(unittest.TestCase):
             def load_user(user_id):
                 return self.session.get(MockUser, int(user_id))
 
-            # Log in the test client
+            # Log in the tests client
             with self.client.session_transaction() as sess:
                 sess['_user_id'] = user.id
 
@@ -97,7 +97,7 @@ class AnalyzeResumeTests(unittest.TestCase):
         response = self.client.post('/analyze_resume', data={'resume_text': ' '})
         self.assertEqual(response.status_code, 400)
 
-    # Add more test as needed
+    # Add more tests as needed
 
 
 if __name__ == '__main__':

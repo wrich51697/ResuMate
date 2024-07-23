@@ -7,16 +7,16 @@ File name: test_resume_parser.py
 Revised:
 
 Description:
-This module contains unit test for the ResumeParser class implemented in the resume_parser.py module.
-The test verify the functionality of the parse method,
+This module contains unit tests for the ResumeParser class implemented in the resume_parser.py module.
+The tests verify the functionality of the parse method,
 ensuring it correctly extracts named entities and noun chunks from resume text.
 
 Usage:
-    To run the test, use the following command:
-    $ python -m unittest discover test
+    To run the tests, use the following command:
+    $ python -m unittest discover tests
 
 Example:
-    python -m unittest test/test_resume_parser.py
+    python -m unittest tests/test_resume_parser.py
 """
 
 import unittest
@@ -76,12 +76,12 @@ class TestResumeParser(unittest.TestCase):
         """
 
         # Test with mocked data
-        extracted_text = self.parser.extract_text_from_file('test/test_uploads/sample_resume.pdf')
+        extracted_text = self.parser.extract_text_from_file('tests/test_uploads/sample_resume.pdf')
         self.assertIn("John Doe", extracted_text)
         self.assertIn("Software Engineer", extracted_text)
         self.assertIn("Python", extracted_text)
 
-        extracted_text = self.parser.extract_text_from_file('test/test_uploads/sample_resume.docx')
+        extracted_text = self.parser.extract_text_from_file('tests/test_uploads/sample_resume.docx')
         self.assertIn("John Doe", extracted_text)
         self.assertIn("Software Engineer", extracted_text)
         self.assertIn("Python", extracted_text)
