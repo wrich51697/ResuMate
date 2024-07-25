@@ -1,7 +1,8 @@
 # test_basic.py
 
 import unittest
-from app import create_app, db
+from app import create_app
+from app.db_manager import db
 from config import TestingConfig
 
 

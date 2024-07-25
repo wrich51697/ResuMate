@@ -22,7 +22,8 @@ Example:
 """
 
 import unittest
-from app import create_app, db
+from app import create_app
+from app.db_manager import db
 from app.models import User
 from app.log import AppLogger
 

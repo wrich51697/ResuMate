@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="772ee199-271c-40aa-8e86-91bf2e523297" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/app/services/ai_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/upload_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ai_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Routes/resume_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Routes/resume_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Routes/user_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Routes/user_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/content_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/content_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/file_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/file_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed.py" beforeDir="false" afterPath="$PROJECT_DIR$/seed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HtmlTableGenerator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HtmlTableGenerator.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/base_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/template_Dir_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/template_Dir_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_analyze_resume.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_analyze_resume.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_app_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_app_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_content_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_content_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_db_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_feedback_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_feedback_logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_resume.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_resume.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_resume_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_resume_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_spacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_spacy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_sqlalchemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_sqlalchemy.py" afterDir="false" />
-    </list>
+    <list default="true" id="772ee199-271c-40aa-8e86-91bf2e523297" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,60 +97,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Mocha.Mocha Test.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.test\\test\\HtmlTableGenerator.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.HTML-JavaScript.html.js.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in base_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_anlyze_resume.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_app.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_basic.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_connection.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_content_analysis.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_path.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_resume_parser.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_spacy.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_sqlalchemy.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.config.executor&quot;: &quot;Run&quot;,
-    &quot;Python.content_analysis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.log.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.resume_parser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.routes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.template_Dir_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_connection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_path.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_sqlalchemy.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Writerside.PDF (hi).executor&quot;: &quot;Run&quot;,
-    &quot;Writerside.Web Archive (hi) (1).executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.1.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Brian Richmond/Downloads/AI_test&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/Users/Brian Richmond/PycharmProjects/ResuMate/node_modules/mocha&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Brian Richmond\\AppData\\Local\\Programs\\PyCharm Professional\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;writerside.last.selected.productResuMate&quot;: &quot;hi&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Mocha.Mocha Test.executor": "Run",
+    "Mocha.test\\test\\HtmlTableGenerator.test.js.executor": "Run",
+    "Node.js.HTML-JavaScript.html.js.executor": "Run",
+    "Python tests.Python tests in base_test.py.executor": "Run",
+    "Python tests.Python tests in test_anlyze_resume.py.executor": "Run",
+    "Python tests.Python tests in test_app.py.executor": "Run",
+    "Python tests.Python tests in test_basic.py.executor": "Run",
+    "Python tests.Python tests in test_connection.py.executor": "Run",
+    "Python tests.Python tests in test_content_analysis.py.executor": "Run",
+    "Python tests.Python tests in test_path.py.executor": "Run",
+    "Python tests.Python tests in test_resume_parser.py.executor": "Run",
+    "Python tests.Python tests in test_spacy.py.executor": "Run",
+    "Python tests.Python tests in test_sqlalchemy.py.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.content_analysis.executor": "Run",
+    "Python.log.executor": "Run",
+    "Python.manage.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.resume_parser.executor": "Run",
+    "Python.routes.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.template_Dir_list.executor": "Run",
+    "Python.test_connection.executor": "Run",
+    "Python.test_path.executor": "Run",
+    "Python.test_sqlalchemy.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Writerside.PDF (hi).executor": "Run",
+    "Writerside.Web Archive (hi) (1).executor": "Run",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "21.1.0",
+    "javascript.nodejs.core.library.typings.version": "20.14.2",
+    "last_opened_file_path": "C:/Users/Brian Richmond/Downloads/AI_test",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "C:/Users/Brian Richmond/PycharmProjects/ResuMate/node_modules/mocha",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "Settings.Markdown",
+    "ts.external.directory.path": "C:\\Users\\Brian Richmond\\AppData\\Local\\Programs\\PyCharm Professional\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true",
+    "writerside.last.selected.productResuMate": "hi"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Brian Richmond\PycharmProjects\ResuMate\app\services" />
@@ -482,7 +449,8 @@
       <workItem from="1721545093818" duration="25402000" />
       <workItem from="1721572768380" duration="14288000" />
       <workItem from="1721587496419" duration="233000" />
-      <workItem from="1721715933959" duration="23631000" />
+      <workItem from="1721715933959" duration="24774000" />
+      <workItem from="1721878270611" duration="5247000" />
     </task>
     <task id="LOCAL-00001" summary="Week 5 contains all the new user man.">
       <option name="closed" value="true" />
@@ -548,7 +516,47 @@
       <option name="project" value="LOCAL" />
       <updated>1721716013776</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1721758152104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721758152104</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1721758178298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721758178298</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1721758373750</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721758373750</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1721758436933</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721758436933</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1721883549484</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721883549484</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

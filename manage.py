@@ -1,7 +1,7 @@
 """
 manage.py
 ------------------------------------------------
-Author: Brian Richmond
+Author: William Richmond
 Created on: 01 July 2024
 File name: manage.py
 Revised: 14 July 2024
@@ -18,9 +18,10 @@ Example:
     python manage.py db init
 """
 
-from flask_migrate import Migrate, upgrade, migrate, init
-from flask_script import Manager, Command, Option
-from app import create_app, db
+import click
+from flask_migrate import Migrate, init as migrate_init, migrate as migrate_migrate, upgrade as migrate_upgrade
+from app import create_app
+from app.db_manager import db
 from app.models import (
     User, Resume, Feedback, Template, ResumeTemplate, Skill, ResumeSkill, JobDescription,
     UserSession, Log, Admin, TemplateCategory, TemplateCategoryMapping, FeedbackTemplate, UploadedFile, AIResult
@@ -31,9 +32,6 @@ app = create_app()
 
 # Initialize Flask-Migrate
 migrate = Migrate(app, db)
-
-# Initialize Flask-Script manager
-manager = Manager(app)
 
 
 @app.shell_context_processor
@@ -53,27 +51,32 @@ def make_shell_context():
     }
 
 
-class DbCommand(Command):
+@click.group()
+def cli():
+    pass
+
+
+@cli.command()
+def run():
+    """Run the Flask development server."""
+    app.run()
+
+
+@cli.command()
+@click.argument('command')
+@click.option('--message', '-m', default=None, help='The message for the migration')
+def db(command, message):
     """Perform database migrations."""
-    option_list = (
-        Option('--command', '-c', dest='command', default='upgrade',
-               help='The command to run (init, migrate, upgrade)'),
-        Option('--message', '-m', dest='message', default=None, help='The message for the migration')
-    )
-
-    def run(self, command, message):
+    with app.app_context():
         if command == 'init':
-            init(directory='migrations')
+            migrate_init(directory='migrations')
         elif command == 'migrate':
-            migrate(message=message)
+            migrate_migrate(message=message)
         elif command == 'upgrade':
-            upgrade()
+            migrate_upgrade()
         else:
-            print(f"Unknown command: {command}")
+            click.echo(f"Unknown command: {command}")
 
-
-# Add the custom db command for database migration commands
-manager.add_command('db', DbCommand())
 
 if __name__ == '__main__':
-    manager.run()
+    cli()
