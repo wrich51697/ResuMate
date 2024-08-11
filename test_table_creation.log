@@ -1,0 +1,867 @@
+2024-07-28 11:37:40,613 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 11:37:40,728 - test_table_creation - INFO - Test table created successfully
+2024-07-28 11:37:40,728 - test_table_creation - INFO - Testing table creation
+2024-07-28 11:37:40,729 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 11:37:40,730 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 11:37:40,733 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 11:55:44,973 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 11:55:45,017 - test_table_creation - INFO - Test table created successfully
+2024-07-28 11:55:45,017 - test_table_creation - INFO - Testing table creation
+2024-07-28 11:55:45,018 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 11:55:45,019 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 11:55:45,024 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 12:16:46,824 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 12:16:46,954 - test_table_creation - INFO - Test table created successfully
+2024-07-28 12:16:46,954 - test_table_creation - INFO - Testing table creation
+2024-07-28 12:16:46,955 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 12:16:46,956 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 12:16:46,959 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 12:23:59,827 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 12:23:59,860 - test_table_creation - INFO - Test table created successfully
+2024-07-28 12:23:59,860 - test_table_creation - INFO - Testing table creation
+2024-07-28 12:23:59,862 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 12:23:59,863 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 12:23:59,866 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 12:49:45,703 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 12:49:45,754 - test_table_creation - INFO - Test table created successfully
+2024-07-28 12:49:45,755 - test_table_creation - INFO - Testing table creation
+2024-07-28 12:49:45,756 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 12:49:45,757 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 12:49:45,760 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 13:08:29,891 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 13:08:29,937 - test_table_creation - INFO - Test table created successfully
+2024-07-28 13:08:29,937 - test_table_creation - INFO - Testing table creation
+2024-07-28 13:08:29,938 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 13:08:29,938 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 13:08:29,942 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 13:25:28,239 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 13:25:28,271 - test_table_creation - INFO - Test table created successfully
+2024-07-28 13:25:28,271 - test_table_creation - INFO - Testing table creation
+2024-07-28 13:25:28,271 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 13:25:28,272 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 13:25:28,275 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 13:39:35,446 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 13:39:35,480 - test_table_creation - INFO - Test table created successfully
+2024-07-28 13:39:35,480 - test_table_creation - INFO - Testing table creation
+2024-07-28 13:39:35,481 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 13:39:35,481 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 13:39:35,485 - test_table_creation - INFO - Test table dropped successfully
+2024-07-28 13:54:20,475 - test_table_creation - INFO - Setting up the test environment
+2024-07-28 13:54:20,550 - test_table_creation - INFO - Test table created successfully
+2024-07-28 13:54:20,550 - test_table_creation - INFO - Testing table creation
+2024-07-28 13:54:20,550 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-28 13:54:20,551 - test_table_creation - INFO - Tearing down the test environment
+2024-07-28 13:54:20,554 - test_table_creation - INFO - Test table dropped successfully
+2024-07-29 12:34:00,125 - test_table_creation - INFO - Setting up the test environment
+2024-07-29 12:34:15,952 - test_table_creation - ERROR - Error setting up the database: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2].  (2) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (2)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-30 06:01:59,902 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 06:01:59,925 - test_table_creation - INFO - Test table created successfully
+2024-07-30 06:01:59,925 - test_table_creation - INFO - Testing table creation
+2024-07-30 06:01:59,925 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 06:01:59,926 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 06:01:59,929 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 06:55:39,440 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 06:55:39,464 - test_table_creation - INFO - Test table created successfully
+2024-07-30 06:55:39,464 - test_table_creation - INFO - Testing table creation
+2024-07-30 06:55:39,464 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 06:55:39,465 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 06:55:39,468 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 07:07:48,914 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 07:07:48,939 - test_table_creation - INFO - Test table created successfully
+2024-07-30 07:07:48,939 - test_table_creation - INFO - Testing table creation
+2024-07-30 07:07:48,940 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 07:07:48,940 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 07:07:48,943 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 07:16:59,717 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 07:16:59,755 - test_table_creation - INFO - Test table created successfully
+2024-07-30 07:16:59,755 - test_table_creation - INFO - Testing table creation
+2024-07-30 07:16:59,756 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 07:16:59,756 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 07:16:59,759 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 07:19:50,383 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 07:19:50,418 - test_table_creation - INFO - Test table created successfully
+2024-07-30 07:19:50,418 - test_table_creation - INFO - Testing table creation
+2024-07-30 07:19:50,418 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 07:19:50,419 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 07:19:50,422 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 07:20:42,620 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 07:20:42,656 - test_table_creation - INFO - Test table created successfully
+2024-07-30 07:20:42,656 - test_table_creation - INFO - Testing table creation
+2024-07-30 07:20:42,657 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 07:20:42,657 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 07:20:42,660 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 07:41:28,922 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 07:41:28,949 - test_table_creation - INFO - Test table created successfully
+2024-07-30 07:41:28,949 - test_table_creation - INFO - Testing table creation
+2024-07-30 07:41:28,950 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 07:41:28,950 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 07:41:28,953 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 07:51:55,032 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 07:51:55,065 - test_table_creation - INFO - Test table created successfully
+2024-07-30 07:51:55,065 - test_table_creation - INFO - Testing table creation
+2024-07-30 07:51:55,066 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 07:51:55,066 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 07:51:55,070 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 07:56:25,298 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 07:56:25,320 - test_table_creation - INFO - Test table created successfully
+2024-07-30 07:56:25,320 - test_table_creation - INFO - Testing table creation
+2024-07-30 07:56:25,321 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 07:56:25,321 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 07:56:25,324 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 08:32:44,985 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 08:32:45,013 - test_table_creation - INFO - Test table created successfully
+2024-07-30 08:32:45,013 - test_table_creation - INFO - Testing table creation
+2024-07-30 08:32:45,013 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 08:32:45,014 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 08:32:45,018 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 09:16:22,745 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 09:16:22,793 - test_table_creation - INFO - Test table created successfully
+2024-07-30 09:16:22,794 - test_table_creation - INFO - Testing table creation
+2024-07-30 09:16:22,795 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 09:16:22,795 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 09:16:22,797 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 10:07:41,097 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 10:07:41,131 - test_table_creation - INFO - Test table created successfully
+2024-07-30 10:07:41,131 - test_table_creation - INFO - Testing table creation
+2024-07-30 10:07:41,132 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 10:07:41,132 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 10:07:41,136 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 10:10:36,964 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 10:10:37,003 - test_table_creation - INFO - Test table created successfully
+2024-07-30 10:10:37,003 - test_table_creation - INFO - Testing table creation
+2024-07-30 10:10:37,004 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 10:10:37,004 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 10:10:37,007 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 10:19:37,578 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 10:19:37,611 - test_table_creation - INFO - Test table created successfully
+2024-07-30 10:19:37,611 - test_table_creation - INFO - Testing table creation
+2024-07-30 10:19:37,612 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 10:19:37,612 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 10:19:37,615 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 11:13:08,828 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 11:13:08,863 - test_table_creation - INFO - Test table created successfully
+2024-07-30 11:13:08,863 - test_table_creation - INFO - Testing table creation
+2024-07-30 11:13:08,864 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 11:13:08,864 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 11:13:08,867 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 11:16:20,406 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 11:16:20,430 - test_table_creation - INFO - Test table created successfully
+2024-07-30 11:16:20,430 - test_table_creation - INFO - Testing table creation
+2024-07-30 11:16:20,431 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 11:16:20,431 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 11:16:20,434 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 11:24:41,175 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 11:24:41,211 - test_table_creation - INFO - Test table created successfully
+2024-07-30 11:24:41,211 - test_table_creation - INFO - Testing table creation
+2024-07-30 11:24:41,211 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 11:24:41,212 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 11:24:41,214 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 11:25:30,121 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 11:25:30,145 - test_table_creation - INFO - Test table created successfully
+2024-07-30 11:25:30,145 - test_table_creation - INFO - Testing table creation
+2024-07-30 11:25:30,145 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 11:25:30,146 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 11:25:30,149 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 11:50:56,669 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 11:50:56,703 - test_table_creation - INFO - Test table created successfully
+2024-07-30 11:50:56,703 - test_table_creation - INFO - Testing table creation
+2024-07-30 11:50:56,703 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 11:50:56,704 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 11:50:56,706 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 11:59:06,195 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 11:59:06,220 - test_table_creation - INFO - Test table created successfully
+2024-07-30 11:59:06,220 - test_table_creation - INFO - Testing table creation
+2024-07-30 11:59:06,221 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 11:59:06,221 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 11:59:06,224 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 12:06:39,550 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 12:06:39,576 - test_table_creation - INFO - Test table created successfully
+2024-07-30 12:06:39,576 - test_table_creation - INFO - Testing table creation
+2024-07-30 12:06:39,577 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 12:06:39,577 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 12:06:39,580 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 12:07:53,820 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 12:07:53,852 - test_table_creation - INFO - Test table created successfully
+2024-07-30 12:07:53,852 - test_table_creation - INFO - Testing table creation
+2024-07-30 12:07:53,853 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 12:07:53,853 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 12:07:53,857 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 12:29:35,342 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 12:29:35,366 - test_table_creation - INFO - Test table created successfully
+2024-07-30 12:29:35,366 - test_table_creation - INFO - Testing table creation
+2024-07-30 12:29:35,366 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 12:29:35,367 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 12:29:35,369 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 12:43:43,769 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 12:43:43,803 - test_table_creation - INFO - Test table created successfully
+2024-07-30 12:43:43,803 - test_table_creation - INFO - Testing table creation
+2024-07-30 12:43:43,804 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 12:43:43,804 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 12:43:43,808 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 12:45:43,106 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 12:45:43,130 - test_table_creation - INFO - Test table created successfully
+2024-07-30 12:45:43,130 - test_table_creation - INFO - Testing table creation
+2024-07-30 12:45:43,131 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 12:45:43,132 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 12:45:43,135 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 12:50:01,331 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 12:50:01,355 - test_table_creation - INFO - Test table created successfully
+2024-07-30 12:50:01,355 - test_table_creation - INFO - Testing table creation
+2024-07-30 12:50:01,355 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 12:50:01,356 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 12:50:01,358 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 12:57:03,117 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 12:57:03,150 - test_table_creation - INFO - Test table created successfully
+2024-07-30 12:57:03,150 - test_table_creation - INFO - Testing table creation
+2024-07-30 12:57:03,151 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 12:57:03,152 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 12:57:03,160 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 13:00:04,406 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 13:00:04,440 - test_table_creation - INFO - Test table created successfully
+2024-07-30 13:00:04,441 - test_table_creation - INFO - Testing table creation
+2024-07-30 13:00:04,441 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 13:00:04,442 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 13:00:04,445 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 13:03:41,112 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 13:03:41,146 - test_table_creation - INFO - Test table created successfully
+2024-07-30 13:03:41,146 - test_table_creation - INFO - Testing table creation
+2024-07-30 13:03:41,147 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 13:03:41,147 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 13:03:41,150 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 13:18:55,443 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 13:18:55,477 - test_table_creation - INFO - Test table created successfully
+2024-07-30 13:18:55,477 - test_table_creation - INFO - Testing table creation
+2024-07-30 13:18:55,478 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 13:18:55,478 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 13:18:55,482 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 13:22:48,921 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 13:22:48,956 - test_table_creation - INFO - Test table created successfully
+2024-07-30 13:22:48,956 - test_table_creation - INFO - Testing table creation
+2024-07-30 13:22:48,957 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 13:22:48,957 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 13:22:48,959 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 13:26:55,689 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 13:26:55,728 - test_table_creation - INFO - Test table created successfully
+2024-07-30 13:26:55,728 - test_table_creation - INFO - Testing table creation
+2024-07-30 13:26:55,729 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 13:26:55,730 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 13:26:55,733 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 13:41:30,894 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 13:41:30,935 - test_table_creation - INFO - Test table created successfully
+2024-07-30 13:41:30,935 - test_table_creation - INFO - Testing table creation
+2024-07-30 13:41:30,936 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 13:41:30,936 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 13:41:30,946 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 13:49:44,913 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 13:49:44,955 - test_table_creation - INFO - Test table created successfully
+2024-07-30 13:49:44,955 - test_table_creation - INFO - Testing table creation
+2024-07-30 13:49:44,956 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 13:49:44,956 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 13:49:44,967 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 14:06:57,376 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 14:06:57,418 - test_table_creation - INFO - Test table created successfully
+2024-07-30 14:06:57,418 - test_table_creation - INFO - Testing table creation
+2024-07-30 14:06:57,419 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 14:06:57,420 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 14:06:57,423 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 14:27:23,484 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 14:27:23,508 - test_table_creation - INFO - Test table created successfully
+2024-07-30 14:27:23,509 - test_table_creation - INFO - Testing table creation
+2024-07-30 14:27:23,509 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 14:27:23,509 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 14:27:23,514 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 14:35:55,174 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 14:35:55,206 - test_table_creation - INFO - Test table created successfully
+2024-07-30 14:35:55,206 - test_table_creation - INFO - Testing table creation
+2024-07-30 14:35:55,207 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 14:35:55,207 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 14:35:55,217 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 14:37:37,699 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 14:37:37,729 - test_table_creation - INFO - Test table created successfully
+2024-07-30 14:37:37,729 - test_table_creation - INFO - Testing table creation
+2024-07-30 14:37:37,730 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 14:37:37,730 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 14:37:37,734 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 14:44:42,242 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 14:44:42,269 - test_table_creation - INFO - Test table created successfully
+2024-07-30 14:44:42,269 - test_table_creation - INFO - Testing table creation
+2024-07-30 14:44:42,270 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 14:44:42,270 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 14:44:42,273 - test_table_creation - INFO - Test table dropped successfully
+2024-07-30 14:52:48,162 - test_table_creation - INFO - Setting up the test environment
+2024-07-30 14:52:48,187 - test_table_creation - INFO - Test table created successfully
+2024-07-30 14:52:48,188 - test_table_creation - INFO - Testing table creation
+2024-07-30 14:52:48,188 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-30 14:52:48,189 - test_table_creation - INFO - Tearing down the test environment
+2024-07-30 14:52:48,191 - test_table_creation - INFO - Test table dropped successfully
+2024-07-31 14:38:14,219 - test_table_creation - INFO - Setting up the test environment
+2024-07-31 14:38:14,247 - test_table_creation - INFO - Test table created successfully
+2024-07-31 14:38:14,247 - test_table_creation - INFO - Testing table creation
+2024-07-31 14:38:14,247 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-31 14:38:14,247 - test_table_creation - INFO - Tearing down the test environment
+2024-07-31 14:38:14,250 - test_table_creation - INFO - Test table dropped successfully
+2024-07-31 14:43:51,843 - test_table_creation - INFO - Setting up the test environment
+2024-07-31 14:43:51,876 - test_table_creation - INFO - Test table created successfully
+2024-07-31 14:43:51,876 - test_table_creation - INFO - Testing table creation
+2024-07-31 14:43:51,876 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-31 14:43:51,877 - test_table_creation - INFO - Tearing down the test environment
+2024-07-31 14:43:51,879 - test_table_creation - INFO - Test table dropped successfully
+2024-07-31 14:50:19,393 - test_table_creation - INFO - Setting up the test environment
+2024-07-31 14:50:19,420 - test_table_creation - INFO - Test table created successfully
+2024-07-31 14:50:19,420 - test_table_creation - INFO - Testing table creation
+2024-07-31 14:50:19,420 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-31 14:50:19,421 - test_table_creation - INFO - Tearing down the test environment
+2024-07-31 14:50:19,424 - test_table_creation - INFO - Test table dropped successfully
+2024-07-31 14:56:07,886 - test_table_creation - INFO - Setting up the test environment
+2024-07-31 14:56:07,924 - test_table_creation - INFO - Test table created successfully
+2024-07-31 14:56:07,924 - test_table_creation - INFO - Testing table creation
+2024-07-31 14:56:07,925 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-31 14:56:07,925 - test_table_creation - INFO - Tearing down the test environment
+2024-07-31 14:56:07,929 - test_table_creation - INFO - Test table dropped successfully
+2024-07-31 15:04:19,534 - test_table_creation - INFO - Setting up the test environment
+2024-07-31 15:04:19,569 - test_table_creation - INFO - Test table created successfully
+2024-07-31 15:04:19,570 - test_table_creation - INFO - Testing table creation
+2024-07-31 15:04:19,571 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-31 15:04:19,571 - test_table_creation - INFO - Tearing down the test environment
+2024-07-31 15:04:19,574 - test_table_creation - INFO - Test table dropped successfully
+2024-07-31 15:08:57,321 - test_table_creation - INFO - Setting up the test environment
+2024-07-31 15:08:57,356 - test_table_creation - INFO - Test table created successfully
+2024-07-31 15:08:57,356 - test_table_creation - INFO - Testing table creation
+2024-07-31 15:08:57,357 - test_table_creation - INFO - Table created successfully and test passed
+2024-07-31 15:08:57,357 - test_table_creation - INFO - Tearing down the test environment
+2024-07-31 15:08:57,360 - test_table_creation - INFO - Test table dropped successfully
+2024-08-01 15:53:36,654 - test_table_creation - INFO - Setting up the test environment
+2024-08-01 15:53:36,684 - test_table_creation - INFO - Test table created successfully
+2024-08-01 15:53:36,685 - test_table_creation - INFO - Testing table creation
+2024-08-01 15:53:36,685 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-01 15:53:36,686 - test_table_creation - INFO - Tearing down the test environment
+2024-08-01 15:53:36,688 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 03:35:05,094 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 03:35:05,120 - test_table_creation - INFO - Test table created successfully
+2024-08-02 03:35:05,120 - test_table_creation - INFO - Testing table creation
+2024-08-02 03:35:05,120 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 03:35:05,121 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 03:35:05,124 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 03:51:13,584 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 03:51:13,626 - test_table_creation - INFO - Test table created successfully
+2024-08-02 03:51:13,626 - test_table_creation - INFO - Testing table creation
+2024-08-02 03:51:13,627 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 03:51:13,627 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 03:51:13,631 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 04:08:37,995 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 04:08:38,029 - test_table_creation - INFO - Test table created successfully
+2024-08-02 04:08:38,030 - test_table_creation - INFO - Testing table creation
+2024-08-02 04:08:38,030 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 04:08:38,031 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 04:08:38,034 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 04:23:15,867 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 04:23:15,900 - test_table_creation - INFO - Test table created successfully
+2024-08-02 04:23:15,900 - test_table_creation - INFO - Testing table creation
+2024-08-02 04:23:15,900 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 04:23:15,901 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 04:23:15,904 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 04:42:24,986 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 04:42:25,023 - test_table_creation - INFO - Test table created successfully
+2024-08-02 04:42:25,023 - test_table_creation - INFO - Testing table creation
+2024-08-02 04:42:25,024 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 04:42:25,025 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 04:42:25,028 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 04:57:11,993 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 04:57:12,022 - test_table_creation - INFO - Test table created successfully
+2024-08-02 04:57:12,023 - test_table_creation - INFO - Testing table creation
+2024-08-02 04:57:12,023 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 04:57:12,024 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 04:57:12,034 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 05:08:12,323 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 05:08:12,360 - test_table_creation - INFO - Test table created successfully
+2024-08-02 05:08:12,360 - test_table_creation - INFO - Testing table creation
+2024-08-02 05:08:12,360 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 05:08:12,361 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 05:08:12,364 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 05:10:58,541 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 05:10:58,574 - test_table_creation - INFO - Test table created successfully
+2024-08-02 05:10:58,575 - test_table_creation - INFO - Testing table creation
+2024-08-02 05:10:58,575 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 05:10:58,575 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 05:10:58,578 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 05:25:22,114 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 05:25:22,155 - test_table_creation - INFO - Test table created successfully
+2024-08-02 05:25:22,155 - test_table_creation - INFO - Testing table creation
+2024-08-02 05:25:22,155 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 05:25:22,156 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 05:25:22,159 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 05:43:33,361 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 05:43:33,394 - test_table_creation - INFO - Test table created successfully
+2024-08-02 05:43:33,394 - test_table_creation - INFO - Testing table creation
+2024-08-02 05:43:33,395 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 05:43:33,395 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 05:43:33,398 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:00:09,513 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:00:09,550 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:00:09,550 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:00:09,551 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:00:09,551 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:00:09,554 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:18:30,170 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:18:30,211 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:18:30,211 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:18:30,212 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:18:30,212 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:18:30,216 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:23:35,140 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:23:35,178 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:23:35,178 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:23:35,179 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:23:35,179 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:23:35,182 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:29:36,525 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:29:36,559 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:29:36,559 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:29:36,560 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:29:36,560 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:29:36,564 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:30:14,428 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:30:14,463 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:30:14,463 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:30:14,464 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:30:14,464 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:30:14,468 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:30:50,348 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:30:50,381 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:30:50,381 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:30:50,382 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:30:50,383 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:30:50,387 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:32:16,564 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:32:16,598 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:32:16,598 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:32:16,599 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:32:16,600 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:32:16,603 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:38:08,871 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:38:08,906 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:38:08,906 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:38:08,907 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:38:08,907 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:38:08,910 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 06:43:51,207 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 06:43:51,234 - test_table_creation - INFO - Test table created successfully
+2024-08-02 06:43:51,234 - test_table_creation - INFO - Testing table creation
+2024-08-02 06:43:51,234 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 06:43:51,235 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 06:43:51,237 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:01:50,382 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:01:50,410 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:01:50,410 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:01:50,410 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:01:50,411 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:01:50,415 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:04:45,335 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:04:45,371 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:04:45,371 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:04:45,372 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:04:45,372 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:04:45,375 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:06:34,169 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:06:34,194 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:06:34,194 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:06:34,195 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:06:34,195 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:06:34,198 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:16:35,050 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:16:35,075 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:16:35,075 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:16:35,075 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:16:35,075 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:16:35,078 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:21:17,991 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:21:18,026 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:21:18,026 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:21:18,027 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:21:18,027 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:21:18,031 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:27:21,162 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:27:21,189 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:27:21,190 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:27:21,190 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:27:21,191 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:27:21,193 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:31:41,811 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:31:41,836 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:31:41,836 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:31:41,837 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:31:41,837 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:31:41,839 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:45:16,455 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:45:16,480 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:45:16,480 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:45:16,480 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:45:16,481 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:45:16,484 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:52:05,977 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:52:06,013 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:52:06,013 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:52:06,013 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:52:06,014 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:52:06,017 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 07:56:50,153 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 07:56:50,177 - test_table_creation - INFO - Test table created successfully
+2024-08-02 07:56:50,177 - test_table_creation - INFO - Testing table creation
+2024-08-02 07:56:50,178 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 07:56:50,178 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 07:56:50,181 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 08:04:39,194 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 08:04:39,219 - test_table_creation - INFO - Test table created successfully
+2024-08-02 08:04:39,219 - test_table_creation - INFO - Testing table creation
+2024-08-02 08:04:39,220 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 08:04:39,220 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 08:04:39,223 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 11:56:36,621 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 11:56:36,688 - test_table_creation - INFO - Test table created successfully
+2024-08-02 11:56:36,688 - test_table_creation - INFO - Testing table creation
+2024-08-02 11:56:36,688 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 11:56:36,689 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 11:56:36,692 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 12:53:31,968 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 12:53:31,997 - test_table_creation - INFO - Test table created successfully
+2024-08-02 12:53:31,997 - test_table_creation - INFO - Testing table creation
+2024-08-02 12:53:31,998 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 12:53:31,998 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 12:53:32,001 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 13:20:07,773 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 13:20:07,811 - test_table_creation - INFO - Test table created successfully
+2024-08-02 13:20:07,811 - test_table_creation - INFO - Testing table creation
+2024-08-02 13:20:07,812 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 13:20:07,812 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 13:20:07,815 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 13:40:57,333 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 13:40:57,369 - test_table_creation - INFO - Test table created successfully
+2024-08-02 13:40:57,369 - test_table_creation - INFO - Testing table creation
+2024-08-02 13:40:57,370 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 13:40:57,370 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 13:40:57,374 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 13:46:03,970 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 13:46:03,998 - test_table_creation - INFO - Test table created successfully
+2024-08-02 13:46:03,998 - test_table_creation - INFO - Testing table creation
+2024-08-02 13:46:03,999 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 13:46:04,000 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 13:46:04,003 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 13:46:45,380 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 13:46:45,416 - test_table_creation - INFO - Test table created successfully
+2024-08-02 13:46:45,416 - test_table_creation - INFO - Testing table creation
+2024-08-02 13:46:45,417 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 13:46:45,417 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 13:46:45,421 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 13:53:30,453 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 13:53:30,480 - test_table_creation - INFO - Test table created successfully
+2024-08-02 13:53:30,480 - test_table_creation - INFO - Testing table creation
+2024-08-02 13:53:30,481 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 13:53:30,481 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 13:53:30,483 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 13:58:58,531 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 13:58:58,568 - test_table_creation - INFO - Test table created successfully
+2024-08-02 13:58:58,568 - test_table_creation - INFO - Testing table creation
+2024-08-02 13:58:58,569 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 13:58:58,569 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 13:58:58,572 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 14:36:22,421 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 14:36:22,446 - test_table_creation - INFO - Test table created successfully
+2024-08-02 14:36:22,446 - test_table_creation - INFO - Testing table creation
+2024-08-02 14:36:22,447 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 14:36:22,447 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 14:36:22,450 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 14:39:47,784 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 14:39:47,820 - test_table_creation - INFO - Test table created successfully
+2024-08-02 14:39:47,821 - test_table_creation - INFO - Testing table creation
+2024-08-02 14:39:47,821 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 14:39:47,822 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 14:39:47,824 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 14:42:33,665 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 14:42:33,692 - test_table_creation - INFO - Test table created successfully
+2024-08-02 14:42:33,692 - test_table_creation - INFO - Testing table creation
+2024-08-02 14:42:33,692 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 14:42:33,693 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 14:42:33,696 - test_table_creation - INFO - Test table dropped successfully
+2024-08-02 15:04:25,620 - test_table_creation - INFO - Setting up the test environment
+2024-08-02 15:04:25,656 - test_table_creation - INFO - Test table created successfully
+2024-08-02 15:04:25,656 - test_table_creation - INFO - Testing table creation
+2024-08-02 15:04:25,657 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-02 15:04:25,658 - test_table_creation - INFO - Tearing down the test environment
+2024-08-02 15:04:25,661 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 00:45:37,828 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 00:45:37,864 - test_table_creation - INFO - Test table created successfully
+2024-08-03 00:45:37,865 - test_table_creation - INFO - Testing table creation
+2024-08-03 00:45:37,865 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 00:45:37,866 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 00:45:37,869 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 00:46:46,935 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 00:46:46,960 - test_table_creation - INFO - Test table created successfully
+2024-08-03 00:46:46,960 - test_table_creation - INFO - Testing table creation
+2024-08-03 00:46:46,961 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 00:46:46,961 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 00:46:46,963 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 00:47:53,558 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 00:47:53,591 - test_table_creation - INFO - Test table created successfully
+2024-08-03 00:47:53,591 - test_table_creation - INFO - Testing table creation
+2024-08-03 00:47:53,592 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 00:47:53,592 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 00:47:53,595 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 12:28:02,319 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 12:28:02,344 - test_table_creation - INFO - Test table created successfully
+2024-08-03 12:28:02,345 - test_table_creation - INFO - Testing table creation
+2024-08-03 12:28:02,345 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 12:28:02,345 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 12:28:02,349 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 12:47:28,996 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 12:47:29,030 - test_table_creation - INFO - Test table created successfully
+2024-08-03 12:47:29,030 - test_table_creation - INFO - Testing table creation
+2024-08-03 12:47:29,031 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 12:47:29,031 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 12:47:29,035 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 12:50:52,651 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 12:50:52,676 - test_table_creation - INFO - Test table created successfully
+2024-08-03 12:50:52,676 - test_table_creation - INFO - Testing table creation
+2024-08-03 12:50:52,677 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 12:50:52,677 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 12:50:52,680 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 12:56:46,086 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 12:56:46,116 - test_table_creation - INFO - Test table created successfully
+2024-08-03 12:56:46,117 - test_table_creation - INFO - Testing table creation
+2024-08-03 12:56:46,117 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 12:56:46,117 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 12:56:46,121 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 13:06:14,426 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 13:06:14,462 - test_table_creation - INFO - Test table created successfully
+2024-08-03 13:06:14,462 - test_table_creation - INFO - Testing table creation
+2024-08-03 13:06:14,463 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 13:06:14,463 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 13:06:14,466 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 13:15:26,445 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 13:15:26,482 - test_table_creation - INFO - Test table created successfully
+2024-08-03 13:15:26,482 - test_table_creation - INFO - Testing table creation
+2024-08-03 13:15:26,483 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 13:15:26,483 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 13:15:26,486 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 13:24:07,828 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 13:24:07,865 - test_table_creation - INFO - Test table created successfully
+2024-08-03 13:24:07,865 - test_table_creation - INFO - Testing table creation
+2024-08-03 13:24:07,867 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 13:24:07,867 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 13:24:07,870 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 13:49:41,840 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 13:49:41,877 - test_table_creation - INFO - Test table created successfully
+2024-08-03 13:49:41,877 - test_table_creation - INFO - Testing table creation
+2024-08-03 13:49:41,878 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 13:49:41,878 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 13:49:41,882 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 13:56:14,389 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 13:56:14,427 - test_table_creation - INFO - Test table created successfully
+2024-08-03 13:56:14,427 - test_table_creation - INFO - Testing table creation
+2024-08-03 13:56:14,428 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 13:56:14,428 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 13:56:14,431 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 14:16:00,210 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 14:16:00,246 - test_table_creation - INFO - Test table created successfully
+2024-08-03 14:16:00,246 - test_table_creation - INFO - Testing table creation
+2024-08-03 14:16:00,247 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 14:16:00,247 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 14:16:00,251 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 14:27:52,483 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 14:27:52,520 - test_table_creation - INFO - Test table created successfully
+2024-08-03 14:27:52,520 - test_table_creation - INFO - Testing table creation
+2024-08-03 14:27:52,520 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 14:27:52,521 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 14:27:52,524 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 14:31:31,298 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 14:31:31,343 - test_table_creation - INFO - Test table created successfully
+2024-08-03 14:31:31,343 - test_table_creation - INFO - Testing table creation
+2024-08-03 14:31:31,344 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 14:31:31,344 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 14:31:31,347 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 14:46:07,773 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 14:46:07,800 - test_table_creation - INFO - Test table created successfully
+2024-08-03 14:46:07,800 - test_table_creation - INFO - Testing table creation
+2024-08-03 14:46:07,800 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 14:46:07,801 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 14:46:07,804 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 14:53:11,955 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 14:53:11,991 - test_table_creation - INFO - Test table created successfully
+2024-08-03 14:53:11,991 - test_table_creation - INFO - Testing table creation
+2024-08-03 14:53:11,992 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 14:53:11,992 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 14:53:11,996 - test_table_creation - INFO - Test table dropped successfully
+2024-08-03 15:00:48,225 - test_table_creation - INFO - Setting up the test environment
+2024-08-03 15:00:48,260 - test_table_creation - INFO - Test table created successfully
+2024-08-03 15:00:48,260 - test_table_creation - INFO - Testing table creation
+2024-08-03 15:00:48,261 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-03 15:00:48,262 - test_table_creation - INFO - Tearing down the test environment
+2024-08-03 15:00:48,265 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 04:01:53,084 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 04:01:53,111 - test_table_creation - INFO - Test table created successfully
+2024-08-04 04:01:53,111 - test_table_creation - INFO - Testing table creation
+2024-08-04 04:01:53,112 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 04:01:53,112 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 04:01:53,115 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 04:07:11,387 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 04:07:11,414 - test_table_creation - INFO - Test table created successfully
+2024-08-04 04:07:11,414 - test_table_creation - INFO - Testing table creation
+2024-08-04 04:07:11,414 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 04:07:11,415 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 04:07:11,418 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 04:09:41,993 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 04:09:42,028 - test_table_creation - INFO - Test table created successfully
+2024-08-04 04:09:42,028 - test_table_creation - INFO - Testing table creation
+2024-08-04 04:09:42,029 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 04:09:42,029 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 04:09:42,032 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 04:12:43,011 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 04:12:43,048 - test_table_creation - INFO - Test table created successfully
+2024-08-04 04:12:43,048 - test_table_creation - INFO - Testing table creation
+2024-08-04 04:12:43,049 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 04:12:43,049 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 04:12:43,053 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 04:19:18,153 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 04:19:18,188 - test_table_creation - INFO - Test table created successfully
+2024-08-04 04:19:18,188 - test_table_creation - INFO - Testing table creation
+2024-08-04 04:19:18,188 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 04:19:18,189 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 04:19:18,192 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 04:20:53,668 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 04:20:53,705 - test_table_creation - INFO - Test table created successfully
+2024-08-04 04:20:53,705 - test_table_creation - INFO - Testing table creation
+2024-08-04 04:20:53,705 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 04:20:53,706 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 04:20:53,709 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 04:35:03,129 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 04:35:03,162 - test_table_creation - INFO - Test table created successfully
+2024-08-04 04:35:03,162 - test_table_creation - INFO - Testing table creation
+2024-08-04 04:35:03,163 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 04:35:03,163 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 04:35:03,167 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:00:54,021 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:00:54,047 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:00:54,048 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:00:54,048 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:00:54,049 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:00:54,051 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:05:46,347 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:05:46,373 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:05:46,373 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:05:46,373 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:05:46,373 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:05:46,376 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:16:58,441 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:16:58,478 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:16:58,478 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:16:58,479 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:16:58,479 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:16:58,482 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:31:34,459 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:31:34,495 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:31:34,495 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:31:34,496 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:31:34,496 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:31:34,499 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:34:12,015 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:34:12,049 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:34:12,050 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:34:12,051 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:34:12,051 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:34:12,054 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:41:04,618 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:41:04,655 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:41:04,655 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:41:04,656 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:41:04,656 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:41:04,659 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:44:30,675 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:44:30,700 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:44:30,700 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:44:30,700 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:44:30,701 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:44:30,703 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:50:27,198 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:50:27,225 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:50:27,225 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:50:27,226 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:50:27,226 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:50:27,230 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 05:53:29,417 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 05:53:29,444 - test_table_creation - INFO - Test table created successfully
+2024-08-04 05:53:29,444 - test_table_creation - INFO - Testing table creation
+2024-08-04 05:53:29,445 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 05:53:29,445 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 05:53:29,448 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 09:43:03,681 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 09:43:03,734 - test_table_creation - INFO - Test table created successfully
+2024-08-04 09:43:03,734 - test_table_creation - INFO - Testing table creation
+2024-08-04 09:43:03,735 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 09:43:03,735 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 09:43:03,738 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 10:57:24,999 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 10:57:25,035 - test_table_creation - INFO - Test table created successfully
+2024-08-04 10:57:25,035 - test_table_creation - INFO - Testing table creation
+2024-08-04 10:57:25,036 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 10:57:25,036 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 10:57:25,039 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:10:49,061 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:10:49,088 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:10:49,088 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:10:49,088 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:10:49,089 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:10:49,091 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:13:51,484 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:13:51,522 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:13:51,522 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:13:51,522 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:13:51,523 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:13:51,526 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:20:42,162 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:20:42,200 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:20:42,200 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:20:42,201 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:20:42,201 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:20:42,204 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:25:05,469 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:25:05,496 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:25:05,496 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:25:05,497 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:25:05,497 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:25:05,499 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:30:20,180 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:30:20,207 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:30:20,207 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:30:20,208 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:30:20,208 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:30:20,212 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:34:09,883 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:34:09,919 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:34:09,919 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:34:09,920 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:34:09,920 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:34:09,923 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:39:56,051 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:39:56,085 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:39:56,085 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:39:56,086 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:39:56,086 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:39:56,090 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:44:07,001 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:44:07,037 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:44:07,038 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:44:07,038 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:44:07,039 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:44:07,042 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:47:37,607 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:47:37,643 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:47:37,643 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:47:37,643 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:47:37,644 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:47:37,647 - test_table_creation - INFO - Test table dropped successfully
+2024-08-04 11:50:04,869 - test_table_creation - INFO - Setting up the test environment
+2024-08-04 11:50:04,906 - test_table_creation - INFO - Test table created successfully
+2024-08-04 11:50:04,906 - test_table_creation - INFO - Testing table creation
+2024-08-04 11:50:04,907 - test_table_creation - INFO - Table created successfully and test passed
+2024-08-04 11:50:04,907 - test_table_creation - INFO - Tearing down the test environment
+2024-08-04 11:50:04,910 - test_table_creation - INFO - Test table dropped successfully

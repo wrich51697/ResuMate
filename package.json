@@ -1,0 +1,19 @@
+{
+  "name": "resumate",
+  "version": "1.0.0",
+  "description": "ResuMate - An AI-powered resume analyzer and builder",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "William Richmond",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0",
+    "winston": "^3.13.0"
+  }
+}

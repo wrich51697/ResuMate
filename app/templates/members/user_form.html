@@ -1,0 +1,81 @@
+<!--
+user_form.html
+------------------------------------------------
+Author: William Richmond
+Created on: 01 July 2024
+File name: user_form.html
+Revised:
+
+Description:
+This template defines the user form page for the ResuMate application. It includes
+a form for creating and editing user profiles with fields for first name, last name,
+username, email, and password. The form dynamically changes based on whether the user
+is being created or edited.
+
+Usage:
+Extends the base template and defines the content for the user form page.
+-->
+
+{% extends 'public/base.html' %}
+
+{% block title %}{% if user %}Edit User{% else %}New User{% endif %} - ResuMate{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>{% if user %}Edit User{% else %}New User{% endif %}</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" class="form-control" id="first_name" name="first_name" value="{{ user.first_name if user else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" class="form-control" id="last_name" name="last_name" value="{{ user.last_name if user else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" value="{{ user.username if user else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" value="{{ user.email if user else '' }}" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" {% if not user %}required{% endif %} oninput="checkPasswordStrength()">
+                <small class="form-text text-muted">
+                    Your password should be at least 8 characters long, contain both upper and lower case letters, a number, and a special character.
+                </small>
+                <div id="password-strength" class="mt-2">
+                    <span id="strength-text">Strength: </span><span id="strength-bar" style="display: inline-block; width: 100px; height: 10px; background-color: #ddd;"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" class="form-control" id="confirm_password" name="confirm_password" {% if not user %}required{% endif %}>
+            </div>
+            <button type="submit" class="btn btn-primary">{% if user %}Update{% else %}Create{% endif %}</button>
+            <a href="{{ url_for('user_list') }}" class="btn btn-secondary">Cancel</a>
+        </form>
+
+        <!-- JavaScript for password strength meter -->
+        <script>
+            function checkPasswordStrength() {
+                const password = document.getElementById('password').value;
+                const strengthText = document.getElementById('strength-text');
+                const strengthBar = document.getElementById('strength-bar');
+                let strength = 0;
+
+                if (password.length >= 8) strength += 1;
+                if (/[A-Z]/.test(password)) strength += 1;
+                if (/[a-z]/.test(password)) strength += 1;
+                if (/[0-9]/.test(password)) strength += 1;
+                if (/[^A-Za-z0-9]/.test(password)) strength += 1;
+
+                const colors = ["#ddd", "red", "orange", "yellow", "green"];
+                strengthBar.style.backgroundColor = colors[strength];
+                strengthText.textContent = `Strength: ${["Very Weak", "Weak", "Moderate", "Strong", "Very Strong"][strength]}`;
+            }
+        </script>
+    </div>
+{% endblock %}

@@ -1,0 +1,77 @@
+<!--
+login.html
+------------------------------------------------
+Author: William Richmond
+Created on: [Add creation date]
+File name: login.html
+Revised: [Add revised date]
+
+Description:
+This template defines the login page for the ResuMate application.
+It includes fields for entering an email and password, and a link to reset the password if forgotten.
+CSRF protection is included to ensure the security of form submissions.
+
+Usage:
+This template should be used by users to log into the ResuMate application.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1>Login</h1>
+
+        <!-- Flash messages for errors or status updates -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <!-- Login form with CSRF token for protection -->
+        <form method="POST" action="{{ url_for('public.login') }}">
+            {{ form.hidden_tag() }} <!-- CSRF token -->
+
+            <!-- Email input field -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" value="{{ form.email.data }}" required>
+                {% if form.email.errors %}
+                    <small class="text-danger">{{ form.email.errors[0] }}</small>
+                {% endif %}
+            </div>
+
+            <!-- Password input field -->
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+                {% if form.password.errors %}
+                    <small class="text-danger">{{ form.password.errors[0] }}</small>
+                {% endif %}
+            </div>
+
+            <!-- Remember me checkbox -->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="remember" name="remember" {{ 'checked' if form.remember.data }}>
+                <label class="form-check-label" for="remember">Remember Me</label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+
+        <!-- Links to password reset and registration pages -->
+        <p class="mt-3">
+            <a href="{{ url_for('public.password_reset') }}">Forgot your password?</a>
+        </p>
+        <p class="mt-3">
+            Don't have an account? <a href="{{ url_for('public.register') }}">Register here</a>.
+        </p>
+    </div>
+{% endblock %}

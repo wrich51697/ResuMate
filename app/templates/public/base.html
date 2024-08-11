@@ -1,0 +1,163 @@
+<!--
+base.html
+------------------------------------------------
+Author: William Richmond
+Created on: 08 July 2024
+File name: base.html
+Revised: 11 August 2024
+
+Description:
+This template serves as the base HTML structure for all pages in the ResuMate application.
+It includes a navigation bar with buttons for Home, Login, About, and Contact. It also has a dark mode toggle feature.
+
+Usage:
+Extend this template in other HTML templates to maintain a consistent layout.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} - ResuMate</title>
+
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS for additional styles -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+
+    <!-- Google Fonts for custom font usage -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--
+    Banner Section:
+    This section displays the ResuMate logo at the top of every page.
+-->
+<div class="banner">
+    <img src="{{ url_for('static', filename='images/Resumate2.png') }}" alt="ResuMate Logo" class="banner-image">
+</div>
+
+<!--
+    Navigation Bar:
+    Contains the navigation buttons and dark mode toggle.
+-->
+<nav class="navbar navbar-light navbar-custom">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-dark ml-auto" id="dark-mode-toggle">Toggle Dark Mode</button>
+    </div>
+</nav>
+
+<!--
+    Button Row:
+    This row includes buttons for navigating to different sections of the website.
+    - Home: Links to the homepage.
+    - About: Links to the about page.
+    - Contact: Links to the contact page.
+    - Login/Register: For unauthenticated users to log in or register.
+    - Logout: Allows authenticated users to log out.
+-->
+<div class="container button-row">
+    <a href="{{ url_for('public.home') }}" class="btn btn-primary">Home</a>
+    <a href="{{ url_for('public.about') }}" class="btn btn-info">About</a>
+    <a href="{{ url_for('public.contact') }}" class="btn btn-success">Contact</a>
+    {% if current_user.is_authenticated %}
+        <a href="{{ url_for('members.upload_resume') }}" class="btn btn-warning">Upload</a>
+        <a href="{{ url_for('public.logout') }}" class="btn btn-danger">Logout</a>
+    {% else %}
+        <a href="{{ url_for('public.login') }}" class="btn btn-primary">Login</a>
+        <a href="{{ url_for('public.register') }}" class="btn btn-secondary">Register</a>
+    {% endif %}
+</div>
+
+<!--
+    Main Content:
+    This block is where the content of each specific page will be rendered.
+    Flash messages are displayed here if there are any.
+-->
+<div class="container main-content">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="alert alert-dismissible fade show" role="alert">
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+</div>
+
+<!--
+    Footer/Table of Contents:
+    A footer at the bottom of the page that serves as a table of contents for the website.
+    It provides quick access to various sections and legal information.
+-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>ResuMate</h4>
+                <ul>
+                    <li><a href="{{ url_for('public.home') }}">Home</a></li>
+                    <li><a href="{{ url_for('public.about') }}">About</a></li>
+                    <li><a href="{{ url_for('public.contact') }}">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="{{ url_for('members.upload_resume') }}">Upload Resume</a></li>
+                    <li><a href="{{ url_for('members.member_dashboard') }}">Dashboard</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Account</h4>
+                <ul>
+                    <li><a href="{{ url_for('public.login') }}">Login</a></li>
+                    <li><a href="{{ url_for('public.register') }}">Register</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+    Scripts Section:
+    Includes Bootstrap and custom JavaScript for added functionality.
+    - Dark Mode Toggle: Adds/removes dark mode based on user preference stored in localStorage.
+-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Check if dark mode is enabled
+    if (localStorage.getItem('dark-mode') === 'enabled') {
+        document.body.classList.add('dark-mode');
+    }
+
+    // Event listener for dark mode toggle
+    document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('dark-mode', 'enabled');
+        } else {
+            localStorage.setItem('dark-mode', 'disabled');
+        }
+    });
+</script>
+</body>
+</html>

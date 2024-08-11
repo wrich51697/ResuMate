@@ -1,0 +1,51 @@
+<!--
+admin_dashboard.html
+------------------------------------------------
+Author: William Richmond
+Created on: 07 July 2024
+File name: admin_dashboard.html
+Revised: [Add revised date]
+
+Description:
+This template defines the dashboard page for members in the ResuMate application.
+It provides an overview of the user's account, recent activity, and quick links
+to important sections such as uploading a resume, viewing user profiles, and accessing the dashboard.
+
+Usage:
+Extends the base template and defines the content for the member's dashboard.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    Member Dashboard
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <!-- Dashboard Header Section -->
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Welcome to Your Dashboard</h1>
+            <p class="lead">Manage your resumes, view your profile, and access member-exclusive features.</p>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="row text-center mt-5">
+            <div class="col-md-4">
+                <h2>Upload Resume</h2>
+                <p>Upload your resume and analyze it against job descriptions.</p>
+                <a class="btn btn-primary" href="{{ url_for('members.upload_file') }}">Upload Now</a>
+            </div>
+            <div class="col-md-4">
+                <h2>Your Profile</h2>
+                <p>View and update your profile information.</p>
+                <a class="btn btn-info" href="{{ url_for('members.member_profile') }}">View Profile</a>
+            </div>
+            <div class="col-md-4">
+                <h2>View Users</h2>
+                <p>Access the list of all users registered in the system.</p>
+                <a class="btn btn-success" href="{{ url_for('members.users') }}">View Users</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

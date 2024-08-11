@@ -1,0 +1,9 @@
+2024-08-02 04:01:43,764 - seed - INFO - Existing tables dropped.
+2024-08-02 04:01:43,799 - seed - INFO - Database tables created successfully.
+2024-08-02 04:01:44,184 - seed - INFO - Adding users...
+2024-08-02 04:01:44,188 - seed - INFO - Users added successfully.
+2024-08-02 04:01:44,188 - seed - INFO - Adding resumes...
+2024-08-02 04:01:44,202 - seed - INFO - Resumes added successfully.
+2024-08-02 04:01:44,202 - seed - INFO - Adding feedbacks...
+2024-08-02 04:01:44,205 - seed - INFO - Feedbacks added successfully.
+2024-08-02 04:01:44,206 - seed - INFO - Database seeded successfully.

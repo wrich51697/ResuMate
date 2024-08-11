@@ -1,0 +1,42 @@
+<!--
+edit_user.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: edit_user.html
+Revised: 08 July 2024
+
+Description:
+This template defines the edit user page for the ResuMate application. It includes
+a form for editing user details such as username and email.
+
+Usage:
+Extends the base template and defines the content for the edit user page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    Edit User
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>Edit User</h2>
+        <form method="POST" action="{{ url_for('user.edit_user', user_id=user.id) }}">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.username.label }}
+                {{ form.username(class="form-control") }}
+            </div>
+            <div class="form-group">
+                {{ form.email.label }}
+                {{ form.email(class="form-control") }}
+            </div>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-primary") }}
+            </div>
+        </form>
+    </div>
+{% endblock %}
+

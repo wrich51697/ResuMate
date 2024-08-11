@@ -1,0 +1,213 @@
+/*
+Author: William Richmond
+Created on: 08 July 2024
+File name: style.css
+Revised: 11 August 2024
+
+Description:
+This stylesheet defines the custom styles used throughout the ResuMate website, including
+styles for the banner, navigation bar, button row, forms, and dark mode.
+
+Usage:
+Include this file in your HTML templates to apply the custom styles.
+*/
+
+/* General styles for the entire website */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Banner section styles for centering and adjusting the logo */
+.banner {
+    width: 100%;
+    height: 600px; /* Set the height to 600px */
+    overflow: hidden; /* Hide any overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.banner-image {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+/* Navbar and button styles to ensure consistency across the site */
+.navbar-custom {
+    background-color: transparent; /* Make the navbar background transparent */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.button-row {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: transparent; /* Make the button row background transparent */
+}
+
+.button-row .btn {
+    margin: 0 10px;
+}
+
+/* Form and strength meter styles for uniform appearance */
+.form-control {
+    margin-bottom: 10px;
+}
+
+.strength-meter {
+    display: flex;
+    height: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.strength-meter div {
+    height: 100%;
+}
+
+.strength-meter .weak {
+    background-color: red;
+}
+
+.strength-meter .medium {
+    background-color: orange;
+}
+
+.strength-meter .strong {
+    background-color: green;
+}
+
+.strength-meter .very-strong {
+    background-color: blue;
+}
+
+/* Alert and main content styles for better visibility */
+.alert {
+    background-color: #a7acb1; /* Adjusted for better visibility in light mode */
+    border: none;
+}
+
+.main-content {
+    background-color: #b6d4fe; /* Adjusted for better visibility in light mode */
+}
+
+/* Welcome section box styling to ensure consistency in dark and light modes */
+.welcome-box {
+    background-color: transparent;
+    color: inherit; /* Ensure the text color is inherited correctly */
+    padding: 20px;
+}
+
+/* Dark mode styles to enhance user experience in low light */
+.dark-mode {
+    background-color: #333;
+    color: #FAF3E0;
+}
+
+.dark-mode .navbar-light {
+    background-color: transparent;
+}
+
+.dark-mode .navbar-light .navbar-brand, .dark-mode .navbar-light .nav-link {
+    color: #FAF3E0;
+}
+
+.dark-mode .button-row {
+    background-color: transparent; /* Keep button row background transparent in dark mode */
+}
+
+.dark-mode .alert {
+    background-color: transparent; /* Keep alert boxes transparent in dark mode */
+}
+
+.dark-mode .main-content {
+    background-color: transparent; /* Keep main content background transparent in dark mode */
+}
+
+#dark-mode-toggle {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Home page styles for content alignment and presentation */
+.text-center {
+    text-align: center;
+}
+
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Table of contents section to enhance site navigation */
+.table-of-contents {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #444;
+    border-radius: 8px;
+    color: #FAF3E0;
+    text-align: center;
+}
+
+/* Footer section styling for consistent appearance */
+.footer {
+    background-color: #333;
+    color: #FAF3E0;
+    padding: 20px 0;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    color: #FAF3E0;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Padding adjustment for Join Now button */
+.join-now {
+    margin-bottom: 2rem; /* Add padding between Join Now and Table of Contents */
+    padding-top: 1rem;
+}

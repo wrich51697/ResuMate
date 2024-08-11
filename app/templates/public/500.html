@@ -1,0 +1,31 @@
+<!--
+500.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: 500.html
+Revised: 08 July 2024
+
+Description:
+This template defines the 500 Internal Server Error page for the ResuMate application.
+It displays a message indicating an internal server error and provides a link to go back to the home page.
+
+Usage:
+Extends the base template and defines the content for the 500 error page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    500 Internal Server Error
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1>500 Internal Server Error</h1>
+            <p>Something went wrong on our end. Please try again later.</p>
+            <a href="{{ url_for('user.index') }}" class="btn btn-primary">Go Home</a>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                  name="Help Instance"
+                  start-page="Project Overview.md">
+
+    <toc-element topic="Project Overview.md"/>
+    <toc-element topic="Objectives.md"/>
+    <toc-element topic="Technologies Used.md"/>
+    <toc-element topic="Environment Setup.md"/>
+    <toc-element topic="Dependencies Installation.md"/>
+    <toc-element topic="Project Structure.md"/>
+    <toc-element topic="Flask Application Setup.md"/>
+    <toc-element topic="Resume Parsing with SpaCy.md"/>
+    <toc-element topic="Database Setup with SQLAlchemy.md"/>
+    <toc-element topic="Routes and Views.md"/>
+    <toc-element topic="Test Cases.md"/>
+    <toc-element topic="Running Tests.md"/>
+    <toc-element topic="Upcoming Features.md"/>
+    <toc-element topic="Future Sprints.md"/>
+    <toc-element topic="Completed Tasks.md"/>
+    <toc-element topic="Sprint Retrospective.md"/>
+    <toc-element topic="Completed task.md"/>
+    <toc-element topic="Running Test.md"/>
+</instance-profile>

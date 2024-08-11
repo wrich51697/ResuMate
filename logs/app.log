@@ -1,0 +1,192 @@
+2024-07-31 15:36:54,349 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-07-31 15:37:30,045 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-07-31 15:50:19,649 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-07-31 15:51:32,314 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-07-31 15:53:29,168 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-07-31 16:00:04,641 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-07-31 16:00:44,968 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-07-31 16:05:07,986 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-01 00:37:40,712 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-01 00:41:43,917 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-01 00:43:42,843 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-01 00:59:29,960 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-01 01:11:18,750 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-01 15:15:49,308 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-01 15:40:51,296 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-02 04:01:43,584 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-02 06:07:13,341 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-02 06:15:41,728 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:36:23,295 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:36:23,295 - resumate - ERROR - Error initializing the app: No module named 'app.Routes'
+2024-08-06 13:36:28,178 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:36:28,178 - resumate - ERROR - Error initializing the app: No module named 'app.Routes'
+2024-08-06 13:39:17,623 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:39:17,633 - resumate - ERROR - Error initializing the app: No module named 'app.routes.resume_routes'
+2024-08-06 13:39:22,433 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:39:22,434 - resumate - ERROR - Error initializing the app: No module named 'app.routes.resume_routes'
+2024-08-06 13:46:23,367 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:46:23,372 - resumate - ERROR - Error initializing the app: No module named 'docx'
+2024-08-06 13:47:00,563 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:47:00,565 - resumate - ERROR - Error initializing the app: No module named 'docx'
+2024-08-06 13:47:05,583 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:47:05,585 - resumate - ERROR - Error initializing the app: No module named 'docx'
+2024-08-06 13:58:16,183 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:58:16,272 - resumate - ERROR - Error initializing the app: cannot import name 'member_bp' from 'app.routes.member_routes' (C:\Users\Brian Richmond\PycharmProjects\ResuMate\ResuMate\app\routes\member_routes.py)
+2024-08-06 13:58:21,039 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 13:58:21,097 - resumate - ERROR - Error initializing the app: cannot import name 'member_bp' from 'app.routes.member_routes' (C:\Users\Brian Richmond\PycharmProjects\ResuMate\ResuMate\app\routes\member_routes.py)
+2024-08-06 14:00:06,535 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 14:00:06,594 - resumate - ERROR - Error initializing the app: cannot import name 'member_bp' from 'app.routes.member_routes' (C:\Users\Brian Richmond\PycharmProjects\ResuMate\ResuMate\app\routes\member_routes.py)
+2024-08-06 14:00:11,445 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-06 14:00:11,501 - resumate - ERROR - Error initializing the app: cannot import name 'member_bp' from 'app.routes.member_routes' (C:\Users\Brian Richmond\PycharmProjects\ResuMate\ResuMate\app\routes\member_routes.py)
+2024-08-10 11:33:52,669 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 11:33:52,670 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 11:57:06,022 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 11:57:06,023 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 12:55:51,270 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 12:55:51,271 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:12:30,031 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:12:30,032 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:21:40,561 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:21:40,562 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:22:59,507 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:22:59,508 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:32:28,010 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:32:28,010 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:33:58,466 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:33:58,467 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:34:03,231 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:34:03,232 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:41:00,893 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:41:00,894 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:42:11,130 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:42:11,130 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:42:45,538 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:42:45,539 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 13:42:50,492 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 13:42:50,493 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-10 14:25:48,836 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-10 14:25:48,836 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 01:42:33,635 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 01:42:33,636 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 01:45:47,421 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 01:45:47,422 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 01:58:27,685 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 01:58:27,805 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 01:59:50,244 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 01:59:50,303 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 04:47:01,188 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 04:47:01,297 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:12:42,438 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:12:42,498 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:25:06,405 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:25:06,470 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:26:29,462 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:26:29,535 - resumate - ERROR - Error initializing the app: No module named 'ResuMate.app'
+2024-08-11 05:30:26,901 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:30:26,954 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:30:31,609 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:30:31,664 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:32:22,573 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:32:22,631 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:32:27,243 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:32:27,307 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:48:30,085 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:48:30,144 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:49:32,415 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:49:32,474 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 05:52:10,001 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 05:52:10,211 - resumate - ERROR - Error initializing the app: No module named 'ResuMate'
+2024-08-11 06:00:40,030 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 06:08:11,497 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 06:10:52,269 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 06:13:42,570 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 06:17:15,515 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 06:35:06,767 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 06:51:32,310 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 06:54:57,134 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:01:39,932 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:20:02,942 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:26:29,229 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:36:29,039 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:39:43,164 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:43:18,258 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:45:08,220 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:49:34,109 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:50:48,851 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:58:19,200 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 07:59:23,882 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:01:35,550 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:04:47,843 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:06:04,269 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:07:55,375 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:13:03,609 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:15:16,073 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:17:00,319 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:17:45,823 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:18:50,422 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:23:47,644 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:25:16,892 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:26:04,977 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:31:02,691 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:35:07,640 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:38:27,525 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:39:55,062 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:40:50,157 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:41:36,469 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:43:30,660 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:44:46,178 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:48:14,441 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:50:09,655 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 08:59:40,366 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 09:55:20,562 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 10:02:26,585 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 10:06:19,137 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 10:12:58,621 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 10:13:53,696 - resumate.public_routes - INFO - User wrich51697 registered successfully
+2024-08-11 10:16:23,663 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 10:17:29,860 - resumate.public_routes - INFO - User logged out
+2024-08-11 10:23:01,185 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 10:48:24,117 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 10:49:18,747 - resumate.public_routes - INFO - User wrich51697@aol.com logged in successfully
+2024-08-11 10:49:18,747 - resumate.public_routes - ERROR - Error logging in user: 'User' object has no attribute 'roles'
+2024-08-11 10:50:09,103 - resumate.public_routes - INFO - User logged out
+2024-08-11 10:50:41,800 - resumate.public_routes - INFO - User wrich51697@aol.com logged in successfully
+2024-08-11 10:50:41,800 - resumate.public_routes - ERROR - Error logging in user: 'User' object has no attribute 'roles'
+2024-08-11 11:37:52,326 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:38:44,939 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:40:06,897 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:40:11,812 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:44:32,356 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:46:15,504 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:47:41,443 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:51:25,133 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:51:30,554 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:54:46,040 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:54:50,921 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:59:08,545 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:59:13,863 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:59:19,911 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:59:25,971 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 11:59:31,812 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:04:09,419 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:04:37,024 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:05:16,534 - resumate.public_routes - INFO - User logged out
+2024-08-11 12:05:46,120 - resumate.public_routes - INFO - User wrich51697@aol.com logged in successfully
+2024-08-11 12:05:46,121 - resumate.public_routes - ERROR - Error logging in user: 'User' object has no attribute 'roles'
+2024-08-11 12:11:08,017 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:11:13,439 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:14:28,454 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:14:33,848 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:31:17,938 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:31:23,577 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:33:17,363 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:33:23,589 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:36:11,071 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:36:19,222 - resumate.public_routes - INFO - User logged out
+2024-08-11 12:36:35,635 - resumate.public_routes - INFO - User wrich51697@aol.com logged in successfully
+2024-08-11 12:36:35,635 - resumate.public_routes - ERROR - Error logging in user: 'User' object has no attribute 'roles'
+2024-08-11 12:43:13,918 - resumate - INFO - AIService initialized successfully with model: distilbert-base-uncased-finetuned-sst-2-english
+2024-08-11 12:43:20,687 - resumate.public_routes - INFO - User logged out
+2024-08-11 12:44:30,194 - resumate.public_routes - INFO - User wrich51697@aol.com logged in successfully
+2024-08-11 12:44:30,194 - resumate.public_routes - ERROR - Error logging in user: 'User' object has no attribute 'roles'
+2024-08-11 12:44:49,549 - resumate.public_routes - INFO - User logged out

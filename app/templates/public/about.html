@@ -1,0 +1,63 @@
+<!--
+about.html
+------------------------------------------------
+Author: William Richmond
+Created on: [Add creation date]
+File name: about.html
+Revised: [Add revised date]
+
+Description:
+This template defines the About page for the ResuMate application. It provides an overview of the project,
+including the Executive Summary, Project Goals, Technical Background, and more.
+
+Usage:
+Extends the base template and defines the content for the About page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    About ResuMate
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <!-- Executive Summary Section -->
+        <div class="section mb-5">
+            <h1>About ResuMate</h1>
+            <p>ResuMate is an AI-powered resume and CV Analyzer and Builder project that revolutionizes the job application process for college graduates and professionals. By leveraging cutting-edge AI and ML technologies, ResuMate streamlines resume and CV creation, analysis, and optimization, empowering users to craft compelling documents that stand out to Applicant Tracking Systems (ATS) and human recruiters.</p>
+        </div>
+
+        <!-- Project Goals Section -->
+        <div class="section mb-5">
+            <h2>Our Goals</h2>
+            <ul>
+                <li><strong>Develop a User-Friendly Interface:</strong> Create an intuitive platform for users to easily manage their resumes and CVs.</li>
+                <li><strong>Implement Advanced NLP Techniques:</strong> Utilize natural language processing to analyze resume and CV content with precision.</li>
+                <li><strong>Provide Constructive Feedback:</strong> Offer meaningful suggestions to enhance resume and CV content and presentation.</li>
+                <li><strong>Offer Customizable Templates:</strong> Provide professional templates to enhance the visual appeal of resumes and CVs.</li>
+                <li><strong>Ensure Data Privacy and Security:</strong> Maintain high standards of data protection in compliance with relevant regulations.</li>
+                <li><strong>Facilitate Continuous Learning:</strong> Incorporate a machine learning model that evolves to meet user needs.</li>
+                <li><strong>Deliver a Scalable Solution:</strong> Build the application to accommodate growth and a broad user base.</li>
+            </ul>
+        </div>
+
+        <!-- Technical Background Section -->
+        <div class="section mb-5">
+            <h2>Technical Background</h2>
+            <p>ResuMate is built using a robust technology stack, including Python, Flask, TensorFlow, spaCy, and Vue.js. Our team is dedicated to continuous learning and innovation, ensuring the successful integration of AI-powered features.</p>
+        </div>
+
+        <!-- Project Risks Section -->
+        <div class="section mb-5">
+            <h2>Project Risks and Mitigation</h2>
+            <p>We acknowledge the complexity of integrating AI and ML technologies and ensuring compliance with data privacy regulations. To mitigate these risks, we invest in comprehensive training and collaborate with industry experts.</p>
+        </div>
+
+        <!-- Future Expansion Section -->
+        <div class="section mb-5">
+            <h2>Future Expansion</h2>
+            <p>As ResuMate establishes itself as a leader in the software development sector, we plan to expand our services to other job categories and continuously enhance our platform’s capabilities.</p>
+        </div>
+    </div>
+{% endblock %}

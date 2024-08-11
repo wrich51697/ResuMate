@@ -1,0 +1,31 @@
+<!--
+404.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: 404.html
+Revised: 08 July 2024
+
+Description:
+This template defines the 404 Not Found page for the ResuMate application.
+It displays a message indicating that the requested page was not found and provides a link to go back to the home page.
+
+Usage:
+Extends the base template and defines the content for the 404 error page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    404 Not Found
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1>404 Not Found</h1>
+            <p>The page you are looking for does not exist.</p>
+            <a href="{{ url_for('user.index') }}" class="btn btn-primary">Go Home</a>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,57 @@
+<!--
+home.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: home.html
+Revised: 08 July 2024
+
+Description:
+This template defines the home page for the ResuMate application. It includes a welcome message,
+introduction to the application's purpose, and highlights key features of the platform.
+
+Usage:
+Extends the base template and defines the content for the home page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    Welcome to ResuMate
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <!-- Welcome Section -->
+        <div class="jumbotron welcome-box text-center">
+            <h1 class="display-4">Welcome to ResuMate</h1>
+            <p class="lead">Your one-stop solution for AI-powered resume analysis and optimization.</p>
+            <a class="btn btn-primary btn-lg" href="{{ url_for('public.register') }}" role="button">Get Started</a>
+        </div>
+
+        <!-- Features Section -->
+        <div class="row text-center mt-5">
+            <div class="col-md-4">
+                <h2>Advanced AI Analysis</h2>
+                <p>Leverage cutting-edge AI and machine learning to analyze your resume and provide actionable feedback.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Customizable Templates</h2>
+                <p>Choose from a variety of professional templates to ensure your resume stands out.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>ATS Optimization</h2>
+                <p>Optimize your resume to ensure it passes through Applicant Tracking Systems with ease.</p>
+            </div>
+        </div>
+
+        <!-- Call to Action Section -->
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h2>Ready to take your resume to the next level?</h2>
+                <p>Sign up now and let ResuMate help you create a resume that gets noticed.</p>
+                <a class="btn btn-success btn-lg join-now" href="{{ url_for('public.register') }}">Join Now</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

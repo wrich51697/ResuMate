@@ -1,0 +1,44 @@
+{% extends "public/base.html" %}
+{% block content %}
+    <h1>Admin Dashboard</h1>
+    <div>
+        <h2>Overview</h2>
+        <p>Total Users: {{ user_count }}</p>
+        <p>Total Resumes: {{ resume_count }}</p>
+    </div>
+    <div>
+        <h2>Analytics</h2>
+        <canvas id="userChart"></canvas>
+        <canvas id="resumeChart"></canvas>
+    </div>
+    <div>
+        <h2>Actions</h2>
+        <a href="{{ url_for('members.upload_resume') }}" class="btn btn-success">Upload Resume</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var userChart = new Chart(document.getElementById('userChart').getContext('2d'), {
+            type: 'pie',
+            data: {
+                labels: ['Users'],
+                datasets: [{
+                    label: 'Total Users',
+                    data: [{{ user_count }}],
+                    backgroundColor: ['#ff6384']
+                }]
+            }
+        });
+
+        var resumeChart = new Chart(document.getElementById('resumeChart').getContext('2d'), {
+            type: 'pie',
+            data: {
+                labels: ['Resumes'],
+                datasets: [{
+                    label: 'Total Resumes',
+                    data: [{{ resume_count }}],
+                    backgroundColor: ['#36a2eb']
+                }]
+            }
+        });
+    </script>
+{% endblock %}

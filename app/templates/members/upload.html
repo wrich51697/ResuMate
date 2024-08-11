@@ -1,0 +1,34 @@
+<!--
+upload.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: upload.html
+Revised: 08 July 2024
+
+Description:
+This template defines the upload page for the ResuMate application. It includes
+a form for uploading resumes.
+
+Usage:
+Extends the base template and defines the content for the upload page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    Upload
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>Upload Resume</h2>
+        <form method="POST" action="{{ url_for('upload') }}" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="resume">Resume</label>
+                <input type="file" class="form-control-file" id="resume" name="resume">
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+{% endblock %}

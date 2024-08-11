@@ -1,0 +1,45 @@
+<!--
+list_users.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: list_users.html
+Revised: 08 July 2024
+
+Description:
+This template defines the list users page for the ResuMate application. It includes
+a table listing all registered users with their ID, username, and email.
+
+Usage:
+Extends the base template and defines the content for the list users page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    List Users
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>Registered Users</h2>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for user in users %}
+                <tr>
+                    <td>{{ user.id }}</td>
+                    <td>{{ user.username }}</td>
+                    <td>{{ user.email }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

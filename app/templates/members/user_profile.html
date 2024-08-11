@@ -1,0 +1,31 @@
+<!--
+user_profile.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: user_profile.html
+Revised:
+
+Description:
+This template defines the user profile page for the ResuMate application. It includes
+the user details such as ID, username, and email.
+
+Usage:
+Extends the base template and defines the content for the user profile page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}User Profile - ResuMate{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>User Profile</h2>
+        <ul>
+            <li>ID: {{ user.id }}</li>
+            <li>Username: {{ user.username }}</li>
+            <li>Email: {{ user.email }}</li>
+        </ul>
+        <a href="{{ url_for('users') }}" class="btn btn-primary">Back to Users</a>
+    </div>
+{% endblock %}

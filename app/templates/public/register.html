@@ -1,0 +1,86 @@
+<!--
+register.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: register.html
+Revised: 11 August 2024
+
+Description:
+This template defines the registration page for the ResuMate application. It includes
+a form for users to register with their first name, last name, username, email, and password.
+
+Usage:
+Extends the base template and defines the content for the registration page.
+-->
+
+{% extends 'public/base.html' %}
+
+{% block title %}Register - ResuMate{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>Register</h2>
+        <form method="POST" action="{{ url_for('public.register') }}">
+            {{ form.hidden_tag() }} <!-- Include CSRF token here -->
+            <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" class="form-control" id="first_name" name="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" class="form-control" id="last_name" name="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required oninput="checkPasswordStrength()">
+                <small class="form-text text-muted">
+                    Your password should be at least 8 characters long, contain both upper and lower case letters, a number, and a special character.
+                </small>
+                <div id="password-strength" class="mt-2">
+                    <span id="strength-text">Strength: </span>
+                    <span id="strength-bar" style="display: inline-block; width: 100px; height: 10px; background-color: #ddd;"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+            <a href="{{ url_for('public.home') }}" class="btn btn-secondary">Cancel</a>
+        </form>
+
+        <!-- Link to Login Page -->
+        <p class="mt-3">
+            Already have an account? <a href="{{ url_for('public.login') }}">Login here</a>.
+        </p>
+
+        <!-- JavaScript for password strength meter -->
+        <script>
+            function checkPasswordStrength() {
+                const password = document.getElementById('password').value;
+                const strengthText = document.getElementById('strength-text');
+                const strengthBar = document.getElementById('strength-bar');
+                let strength = 0;
+
+                if (password.length >= 8) strength += 1;
+                if (/[A-Z]/.test(password)) strength += 1;
+                if (/[a-z]/.test(password)) strength += 1;
+                if (/[0-9]/.test(password)) strength += 1;
+                if (/[^A-Za-z0-9]/.test(password)) strength += 1;
+
+                const colors = ["#ddd", "red", "orange", "yellow", "green"];
+                strengthBar.style.backgroundColor = colors[strength];
+                strengthText.textContent = `Strength: ${["Very Weak", "Weak", "Moderate", "Strong", "Very Strong"][strength]}`;
+            }
+        </script>
+    </div>
+{% endblock %}

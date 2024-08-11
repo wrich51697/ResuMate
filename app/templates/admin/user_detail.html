@@ -1,0 +1,55 @@
+<!--
+admin/user_detail.html
+------------------------------------------------
+Author: William Richmond
+Created on: 30 June 2024
+File name: user_detail.html
+Revised: [Add revised date]
+
+Description:
+This template defines the user detail page for the ResuMate application. It includes
+the user details such as ID, username, and email.
+
+Usage:
+Extends the base template and defines the content for the user detail page.
+-->
+
+{% extends "public/base.html" %}
+
+{% block title %}
+    User Detail
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>User Detail</h2>
+        <form method="POST" action="{{ url_for('admin.admin_user_detail', user_id=user.id) }}">
+            <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" class="form-control" id="first_name" name="first_name" value="{{ user.first_name }}" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" class="form-control" id="last_name" name="last_name" value="{{ user.last_name }}" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" value="{{ user.email }}" required>
+            </div>
+
+            {% if current_user.is_owner %}
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="is_admin" name="is_admin" {% if user.is_admin %}checked{% endif %}>
+                    <label class="form-check-label" for="is_admin">Admin</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="is_owner" name="is_owner" {% if user.is_owner %}checked{% endif %}>
+                    <label class="form-check-label" for="is_owner">Owner</label>
+                </div>
+            {% endif %}
+
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a href="{{ url_for('admin.admin_users') }}" class="btn btn-secondary">Back to Users</a>
+        </form>
+    </div>
+{% endblock %}
